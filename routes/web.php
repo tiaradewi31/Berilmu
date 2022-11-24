@@ -34,5 +34,5 @@ Route::get('/artikel', function () {
 });
 
 Route::get('/perangkatpembelajaran', function () {
-    return view('perangkat_pembelajaran');
+    return view('perangkatpembelajaran');
 });
