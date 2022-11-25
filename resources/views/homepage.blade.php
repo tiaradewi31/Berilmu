@@ -5,8 +5,8 @@
     <style>
         body{
             background-color: #E8F2FD;
-            background-image: url(bgberilmu.png);
             background-size: cover;
+            background-image: url(bgberilmu.png);
         }
     </style>    
     <h1>BERILMU<h1>
