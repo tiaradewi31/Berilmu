@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage', [
-        "image" => "bgberilmu.jpeg"
-    ]);
+    return view('homepage');
 });
 
 Route::get('/login', function () {

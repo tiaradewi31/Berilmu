@@ -5,7 +5,7 @@
     <style>
         body{
             background-color: #E8F2FD;
-            background-image: url(bgberilmu.png);
+            background-image: url(http://127.0.0.1:5500/img/LOGO.png);
             background-size: cover;
         }
     </style>    
