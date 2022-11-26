@@ -35,8 +35,9 @@
         body{
             background-color: #E8F2FD;
             background-size: cover;
+            
         }
-      </style>    
+      </style>
         <h1>BERILMU<h1>
         <h5>Berbagi perangkat pembelajaran dari sekolah negeri dan swasta di Indonesia<h5>
         <form class="d-flex">
@@ -45,7 +46,12 @@
         </form>
       </div>
     </div>
-
+    <div class="container-fluid align-baseline">
+      <img src="img/bgberilmu.png" alt="">
+      <div class = "text-center" style="margin: 100px;">
+        <h1>ARTIKEL</h1>
+      </div>
+    </div>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
