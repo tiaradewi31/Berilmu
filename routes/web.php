@@ -36,3 +36,7 @@ Route::get('/artikel', function () {
 Route::get('/perangkatpembelajaran', function () {
     return view('perangkatpembelajaran');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
