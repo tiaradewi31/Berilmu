@@ -47,83 +47,83 @@
       </div>
     </div>
     <div class="container-fluid align-baseline">
-      <img src="img/bgberilmu.png" alt="">
-      <div class = "text-center" style="margin: 100px;">
+      <div class = "text-center">
       </div>
     </div> 
-    <div class="clearfix">
-      <img src="img/bgberilmu.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-
-      <h3>
-      A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-      </h3>
-
-      <p>
-      As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-      </p>
-
-      <p>
-      And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-      </p>
+  <div class="custom_container">
+    <div class="fitur_berilmu" style="padding-top: 300px;">
+    <div class="fiturberilmu1">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+            <h3>Simplest Drag and Drop Builder</h3>
+            <p class="">So simple, even a child could use!</p>
+            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+              <source data-src="video/RPP.mp4" type="video/mp4" src="video/RPP.mp4">
+            </video>
+          </div>
+        </div>
     </div>
-    <div class="clearfix">
-      <img src="img/bgberilmu.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-
-      <h3>
-      A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-      </h3>
-
-      <p>
-      As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-      </p>
-
-      <p>
-      And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-      </p>
+    <div class="fiturberilmu2">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+              <source data-src="video/Silabus.mp4" type="video/mp4" src="video/Silabus.mp4">
+            </video>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+            <h3>Super Powerful Character Builder</h3>
+            <p class="">So diverse, you can create Billions of unique characters.</p>
+            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
+          </div>
+        </div>
     </div>
-    <div class="clearfix">
-      <img src="img/bgberilmu.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-
-      <h3>
-      A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-      </h3>
-
-      <p>
-      As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-      </p>
-
-      <p>
-      And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-      </p>
+    <div class="fiturberilmu3">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+            <h3>100M+ Stock Videos and Photos</h3>
+            <p class="">So ginormous, you can find anything you want.</p>
+            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+              <source data-src="video/Media Pembelajaran.mp4" type="video/mp4" src="video/Media Pembelajaran.mp4">
+            </video>
+          </div>
+        </div>
     </div>
-    <div class="clearfix">
-      <img src="img/bgberilmu.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-
-      <h3>
-      A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-      </h3>
-
-      <p>
-      As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-      </p>
-
-      <p>
-      And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-      </p>
+    <div class="fiturberilmu4">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+              <source data-src="video/Bahan Ajar.mp4" type="video/mp4" src="video/Bahan Ajar.mp4">
+            </video>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+            <h3>Super Powerful Character Builder</h3>
+            <p class="">So diverse, you can create Billions of unique characters.</p>
+            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
+          </div>
+        </div>
     </div>
-      <figure class="figure">
-        <img src="img/bgberilmu.png" class="figure-img img-fluid rounded" alt="...">
-        <h3>
-      A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-      </h3>
-
-      <p>
-      As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-      </p>
-        <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
-      </figure>
+    <div class="fiturberilmu5">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+            <h3>100M+ Stock Videos and Photos</h3>
+            <p class="">So ginormous, you can find anything you want.</p>
+<span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+              <source data-src="video/ATP.mp4" type="video/mp4" src="video/ATP.mp4">
+            </video>
+          </div>
+        </div>
     </div>
-    
+  </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
