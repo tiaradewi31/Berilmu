@@ -9,8 +9,8 @@
   <body>
 
     <div class ="container text-center">
-        <img src="img/togaberilmu.png" alt="" style = "width: 688px; height: 182px; margin: 227px;">
-        <div class="card text-center" style="background-color: #46B8F9;">
+        <img src="img/togaberilmu.png" alt="" style = "width: 688px; height: 182px; margin: auto;">
+        <div class="card text-center" style="background-color: #E4F5FF;">
             <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
