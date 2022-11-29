@@ -124,6 +124,9 @@
       <p>
       And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
       </p>
+      <p>
+      And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
         <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
       </figure>
     </div>
