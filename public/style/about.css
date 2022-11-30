@@ -129,6 +129,10 @@
     .single_advisor_profile:focus .single_advisor_details_info h6 {
         color: #ffffff;
     }
+    .single_advisor_profile:hover .single_advisor_details_info h9,
+    .single_advisor_profile:focus .single_advisor_details_info h9 {
+        color: #ffffff;
+    }
     .single_advisor_profile:hover .single_advisor_details_info p,
     .single_advisor_profile:focus .single_advisor_details_info p {
         color: #ffffff;
