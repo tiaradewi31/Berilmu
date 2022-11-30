@@ -21,17 +21,21 @@
       <div class="row">
         <div class="col">
           <img src="img/Fitri.png" class="rounded-circle" alt="" style="width:100%;">
-          <h5 style="heigth: 20px;">Fitri Farida Solihati</h5>
+          <h5 style="margin:20px;">Fitri Farida Solihati</h5>
+          <p>2103753</p>
         </div>
         <div class="col">
           Column
         </div>
         <div class="col">
           <img src="img/Reisa.jpg" class="rounded-circle" alt="" style="width:100%;">
-          <h5 style="heigth: 20px;">Reisa Aulia Sodikin</h5>
+          <h5 style="margin:20px;">Reisa Aulia Sodikin</h5>
+          <p>2102423</p>
         </div>
         <div class="col">
-          Column
+          <img src="img/Tiara.jpeg" class="rounded-circle" alt="" style="width:100%;">
+          <h5 style="margin:20px;">Tiara Dewi Ibnatun Solihat</h5>
+          <p>2100686</p>
         </div>
       </div>
     </div>
