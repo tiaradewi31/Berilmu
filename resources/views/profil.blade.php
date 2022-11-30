@@ -1,14 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>bs5 profile content - Bootdey.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BERILMU | Profil</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/profil.css">
-  </head>
-  <body>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
 
 <div class="container">
     <div class="row">
@@ -454,6 +457,122 @@
     <!-- end row-->
 
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+<style type="text/css">
+body{
+    background-color:#ecf2f5;
+    margin-top:20px;
+}
+
+.card {
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 24px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #ecf2f5;
+    border-radius: .25rem;
+}
+.avatar-lg {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #ecf2f5;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.avatar-sm {
+    height: 2.25rem;
+    width: 2.25rem;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.me-2 {
+    margin-right: .75rem!important;
+}
+.avatar-md {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent!important;
+}
+.post-user-comment-box {
+    background-color: #f2f8fb;
+    margin: 0 -.75rem;
+    padding: 1rem;
+    margin-top: 20px;
+}
+.simplebar-wrapper {
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
+    max-width: inherit;
+    max-height: inherit;
+}
+.simplebar-height-auto-observer-wrapper {
+    box-sizing: inherit!important;
+    height: 100%;
+    width: 100%;
+    max-width: 1px;
+    position: relative;
+    float: left;
+    max-height: 1px;
+    overflow: hidden;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+    flex-grow: inherit;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+.font-13 {
+    font-size: 13px!important;
+}
+.btn-soft-info {
+    color: #45bbe0;
+    background-color: rgba(69,187,224,.18);
+    border-color: rgba(69,187,224,.12);
+}
+.social-list-item {
+    height: 2rem;
+    width: 2rem;
+    line-height: calc(2rem - 2px);
+    display: block;
+    border: 2px solid #adb5bd;
+    border-radius: 50%;
+    color: #adb5bd;
+}
+.comment-area-box .comment-area-btn {
+    background-color: #f2f8fb;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 .2rem .2rem;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
 </html>
