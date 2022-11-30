@@ -70,48 +70,49 @@
           </div>
           <!-- Single Advisor-->
           <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+              <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
-                <h6>Nazrul Islam</h6>
-                <p class="designation">UI Designer</p>
+                <h6>Nikita Marsya Devana S</h6>
+                <p class="designation">Frontend</p>
               </div>
             </div>
           </div>
           <!-- Single Advisor-->
           <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+              <div class="advisor_thumb"><img src="img/Reisa.jpg" alt="" style="width:120%;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="https://www.instagram.com/reisa257/"><i class="fa fa-twitter"></i></a><a href="#"></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
-                <h6>Riyadh Khan</h6>
-                <p class="designation">Developer</p>
+                <h6>Reisa Aulia Sodikin</h6>
+                <p class="designation">Frontend</p>
               </div>
             </div>
           </div>
           <!-- Single Advisor-->
           <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="">
+              <div class="advisor_thumb"><img src="img/Tiara.jpeg" alt="" style="width:120%;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
-                <h6>Niloy Islam</h6>
-                <p class="designation">Marketing Manager</p>
+                <h6>Tiara Dewi Ibnatun S</h6>
+                <p class="designation">Backend</p>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
