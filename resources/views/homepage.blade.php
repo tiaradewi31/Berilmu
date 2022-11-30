@@ -14,7 +14,7 @@
   @include('navbar')
 
     <div class="container">
-      <div class = "text-center" style="margin: 100px;">
+      <div class = "text-center" style="margin: 150px;">
       <style>
         body{
             background-color: #E8F2FD;

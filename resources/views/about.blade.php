@@ -39,9 +39,9 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%;">
+              <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%; border-radius:10px 10px 0 0;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a><a href="#"></a></div>
+                <div class="social-info"><a href="https://www.instagram.com/fitrifasol/"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
@@ -55,9 +55,9 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%;">
+              <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%; border-radius:10px 10px 0 0;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"></a></div>
+                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
@@ -71,9 +71,9 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Reisa.jpg" alt="" style="width:120%;">
+              <div class="advisor_thumb"><img src="img/Reisa.jpg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="https://www.instagram.com/reisa257/"><i class="fa fa-twitter"></i></a><a href="#"></a></div>
+                <div class="social-info"><a href="https://www.instagram.com/reisa257/"><i class="fa fa-instagram"></i></a><a href=""><i class="fa fa-google"></i></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
@@ -87,9 +87,9 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Tiara.jpeg" alt="" style="width:120%;">
+              <div class="advisor_thumb"><img src="img/Tiara.jpeg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"></a></div>
+                <div class="social-info"><a href="https://www.instagram.com/tiaradewiis/"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">

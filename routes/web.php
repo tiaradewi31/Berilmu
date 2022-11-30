@@ -40,3 +40,11 @@ Route::get('/about', function () {
 Route::get('/navbarsudahlogin', function () {
     return view('navbarsudahlogin');
 });
+
+Route::get('/posts', function () {
+    return view('posts');
+});
+
+Route::get('/editprofil', function () {
+    return view('editprofil');
+});

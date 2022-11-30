@@ -27,7 +27,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-end">
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Edit</a>
+                            <a data-target:="#user-form-modal" class="dropdown-item">Edit</a>
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item">Delete</a>
                             <!-- item-->
@@ -60,11 +60,7 @@
                         <li class="list-inline-item">
                             <a href="javascript: void(0);" class="social-list-item text-center border-primary text-primary"><i class="mdi mdi-instagram"></i></a>
                         <li class="list-inline-item">
-                            <a href="javascript: void(0);" class="social-list-item text-center border-info text-info"><i class="mdi mdi-gmail"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="javascript: void(0);" class="social-list-item text-center border-secondary text-secondary"><i class="mdi mdi-github"></i></a>
-                        </li>
+                            <a href="javascript: void(0);" class="social-list-item text-center border-info text-info"><i class="mdi mdi-google"></i></a>
                     </ul>   
                 </div>                                 
             </div> <!-- end card -->
@@ -84,6 +80,48 @@
                             <h5 class="text-muted mt-1 mb-2 fw-normal">Posts</h5>
                             <h2 class="mb-0 fw-bold">98</h2>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                
+                    <h4 class="header-title mb-3">Posts</h4>
+
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
+                                <div class="w-100 ms-2">
+                                    <h4 class="mb-1">RPP</h4>
+                                </div>
+                                <i class="mdi mdi-chevron-right h2"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
+                                <div class="w-100 ms-2">
+                                    <h4 class="mb-1">Silabus</h4>
+                                </div>
+                                <i class="mdi mdi-chevron-right h2"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
+                                <div class="w-100 ms-2">
+                                    <h4 class="mb-1">Modul Ajar</h4>
+                                </div>
+                                <i class="mdi mdi-chevron-right h2"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
+                                <div class="w-100 ms-2">
+                                    <h4 class="mb-1">ATP</h4>
+                                </div>
+                                <i class="mdi mdi-chevron-right h2"></i>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -160,70 +198,6 @@
                     </div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 532px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="width: 0px; display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="height: 230px; transform: translate3d(0px, 0px, 0px); display: block;"></div></div></div> <!-- end inbox-widget -->
                 </div>
             </div> <!-- end card-->
-            <div class="card">
-                <div class="card-body">
-                    <div class="dropdown float-end">
-                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="mdi mdi-dots-vertical"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end">
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                        </div>
-                    </div>
-
-                    <h4 class="header-title mb-3">Team Members <i class="mdi mdi-account-multiple ms-1"></i></h4>
-
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1">Herbert Stewart<i class="mdi mdi-check-decagram text-info ms-1"></i></h5>
-                                    <p class="mb-0 font-13 text-muted">Co Founder</p>
-                                </div>
-                                <i class="mdi mdi-chevron-right h2"></i>
-                            </div>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1">Terry Mouser</h5>
-                                    <p class="mb-0 font-13 text-muted">Web Designer</p>
-                                </div>
-                                <i class="mdi mdi-chevron-right h2"></i>
-                            </div>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar8.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1">Adam Barney</h5>
-                                    <p class="mb-0 font-13 text-muted">PHP Developer</p>
-                                </div>
-                                <i class="mdi mdi-chevron-right h2"></i>
-                            </div>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex align-items-center pb-1" id="tooltips-container">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1">Michal Chang</h5>
-                                    <p class="mb-0 font-13 text-muted">UI/UX Designer</p>
-                                </div>
-                                <i class="mdi mdi-chevron-right h2"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div> <!-- end col-->
 
         <div class="col-xl-7">
@@ -349,6 +323,113 @@
             </div> <!-- end card-->
 
         </div> <!-- end col -->
+        <!-- User Form Modal -->
+    <div class="modal fade" role="dialog" tabindex="-1" id="user-form-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Create User</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="py-1">
+              <form class="form" novalidate="">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Full Name</label>
+                          <input class="form-control" type="text" name="name" placeholder="John Smith" value="John Smith">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Username</label>
+                          <input class="form-control" type="text" name="username" placeholder="johnny.s" value="johnny.s">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Email</label>
+                          <input class="form-control" type="text" placeholder="user@example.com">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col mb-3">
+                        <div class="form-group">
+                          <label>About</label>
+                          <textarea class="form-control" rows="5" placeholder="My Bio"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-sm-6 mb-3">
+                    <div class="mb-2"><b>Change Password</b></div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Current Password</label>
+                          <input class="form-control" type="password" placeholder="••••••">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
+                          <label>New Password</label>
+                          <input class="form-control" type="password" placeholder="••••••">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Confirm <span class="d-none d-xl-inline">Password</span></label>
+                          <input class="form-control" type="password" placeholder="••••••"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-5 offset-sm-1 mb-3">
+                    <div class="mb-2"><b>Keeping in Touch</b></div>
+                    <div class="row">
+                      <div class="col">
+                        <label>Email Notifications</label>
+                        <div class="custom-controls-stacked px-2">
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="notifications-blog" checked="">
+                            <label class="custom-control-label" for="notifications-blog">Blog posts</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="notifications-news" checked="">
+                            <label class="custom-control-label" for="notifications-news">Newsletter</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="notifications-offers" checked="">
+                            <label class="custom-control-label" for="notifications-offers">Personal Offers</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex justify-content-end">
+                    <button class="btn btn-primary" type="submit">Save Changes</button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
     <!-- end row-->
 
