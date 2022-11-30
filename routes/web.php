@@ -36,3 +36,7 @@ Route::get('/perangkatpembelajaran', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/navbarsudahlogin', function () {
+    return view('navbarsudahlogin');
+});
