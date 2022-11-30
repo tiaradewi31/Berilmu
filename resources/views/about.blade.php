@@ -7,9 +7,30 @@
     <link rel="icon" href="http://berilmu-laravel.test/img/logoputih.png" type = "image/x-icon">
     <link rel="icon" href="http://127.0.0.1:8000/img/logoputih.png" type = "image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="style/about.css" rel="stylesheet" />
   </head>
   <body>
 
+    <nav class="navbar fixed-top navbar-expand-lg" style= "background-color : rgb(136, 212, 255)">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="img/logoputih.png"  alt="" width="60">
+        </a>    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style= "color: ">
+          <div class="navMenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="\profil"><img src="img/fotoprofil.png" alt="" style="width:50%;"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <div class ="container text-center">
         <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 182px; margin: 176px;">
@@ -19,6 +40,81 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-8 col-lg-6">
+            <!-- Section Heading-->
+            <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <h3>Our Creative <span> Team</span></h3>
+              <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Samantha Sarah</h6>
+                <p class="designation">Founder &amp; CEO</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Nazrul Islam</h6>
+                <p class="designation">UI Designer</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Riyadh Khan</h6>
+                <p class="designation">Developer</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Niloy Islam</h6>
+                <p class="designation">Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="container text-center">
       <h2 style ="margin:80px;">Our Team</h2>
