@@ -17,7 +17,7 @@
 	  margin: 5px;
 	  text-align: left;
 	}
-	.container {
+	.container-footer {
 	   display: flex;
        background-color: rgb(136, 212, 2550);
 	}	
@@ -26,7 +26,7 @@
 </head>  
 <body>
     <footer class="footer">
-	    <div class="container">
+	    <div class="container-footer">
 	        <div class="column">
 	            <h6> About Berilmu </h6>
                 <h6> Perangkat Pembelajaran </h6>
