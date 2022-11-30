@@ -43,7 +43,7 @@
                 <img src="img/logoputih.png">
             </div>
 	        <div class="column">
-                <img src="img/Logo.png"  alt="" width="200">
+                <img src="img/togaberilmuputih.png"  alt="" width="200">
 	        </div>
 	    </div>
     </footer>
