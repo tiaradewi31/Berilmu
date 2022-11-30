@@ -12,7 +12,7 @@
   </head>
   <body>
 
-  @include('navbar2')
+    @include('navbar2')
 
     <div class ="container text-center">
         <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 182px; margin: 176px;">
@@ -41,7 +41,7 @@
               <!-- Team Thumb-->
               <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-Gmail"></i></a><a href="#"></a></div>
+                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a><a href="#"></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
