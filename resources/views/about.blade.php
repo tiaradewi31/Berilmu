@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> BERILMU | ABOUT</title>
-    <link rel="icon" href="http://127.0.0.1:8000/img/Toga.png" type = "image/x-icon">
+    <link rel="icon" href="http://127.0.0.1:8000/img/logoputih.png" type = "image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
+
+
     <div class ="container text-center">
         <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 182px; margin: 176px;">
         <div class="card border border-0" style="background-color: #E4F5FF; border-radius: 60px;">
