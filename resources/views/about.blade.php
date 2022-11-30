@@ -12,25 +12,7 @@
   </head>
   <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg" style= "background-color : rgb(136, 212, 255)">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="img/logoputih.png"  alt="" width="60">
-        </a>    
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <div class="navMenu">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="\profil"><img src="img/fotoprofil.png" alt="" style="width:40%;"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+  @include('navbar2')
 
     <div class ="container text-center">
         <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 182px; margin: 176px;">
@@ -59,7 +41,7 @@
               <!-- Team Thumb-->
               <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%;">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"></a></div>
+                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-Gmail"></i></a><a href="#"></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
