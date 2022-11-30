@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> BERILMU | ABOUT</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" rel="icon" href="img/logotoga.png">
+    <link rel="icon" href="http://localhost:8080/Tiara/apa/img/logotoga.png" type = "image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
     <div class ="container text-center">
@@ -20,7 +21,7 @@
       <h2 style ="margin:80px;">Our Team</h2>
       <div class="row">
         <div class="col">
-          <img src="img/Fitri.png" class="rounded-circle" alt="" style="width:100%;">
+          <img src="img/Fitri.png" class="rounded-circle" alt="" style="width:75%;">
           <h5 style="margin:20px;">Fitri Farida Solihati</h5>
           <p>2103753</p>
         </div>
@@ -28,12 +29,12 @@
           Column
         </div>
         <div class="col">
-          <img src="img/Reisa.jpg" class="rounded-circle" alt="" style="width:100%;">
+          <img src="img/Reisa.jpg" class="rounded-circle" alt="" style="width: 75%;">
           <h5 style="margin:20px;">Reisa Aulia Sodikin</h5>
           <p>2102423</p>
         </div>
         <div class="col">
-          <img src="img/Tiara.jpeg" class="rounded-circle" alt="" style="width:100%;">
+          <img src="img/Tiara.jpeg" class="rounded-circle" alt="" style="width:75%;">
           <h5 style="margin:20px;">Tiara Dewi Ibnatun Solihat</h5>
           <p>2100686</p>
         </div>
