@@ -13,7 +13,7 @@
                         <a class="nav-link" aria-current="page"  style= "color : black" href="\login">LOG IN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"   style= "color : black" href="\register">REGISTER</a>
+                        <a class="nav-link" style= "color : black" href="\register">REGISTER</a>
                     </li>
                 </ul>
             </div>
