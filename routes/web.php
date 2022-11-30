@@ -29,10 +29,6 @@ Route::get('/profil', function () {
     return view('profil');
 });
 
-Route::get('/artikel', function () {
-    return view('artikel');
-});
-
 Route::get('/perangkatpembelajaran', function () {
     return view('perangkatpembelajaran');
 });
