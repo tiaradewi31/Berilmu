@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
     <!--  All snippets are MIT license http://bootdey.com/license -->
-    <title>bs5 profile content - Bootdey.com</title>
+    <title>BERILMU | Profil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    @include('navbar2')
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
 
 <div class="container">
@@ -46,24 +48,18 @@
                         <p class="text-muted font-13 mb-3">
                             Hi I'm Johnathn Deo,has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
                         </p>
-                        <p class="text-muted mb-2 font-13"><strong>Full Name :</strong> <span class="ms-2">Geneva D. McKnight</span></p>
-                    
-                        <p class="text-muted mb-2 font-13"><strong>Mobile :</strong><span class="ms-2">(123) 123 1234</span></p>
+                        <p class="text-muted mb-2 font-13"><strong>Nama Lengkap :</strong> <span class="ms-2">Geneva D. McKnight</span></p>
                     
                         <p class="text-muted mb-2 font-13"><strong>Email :</strong> <span class="ms-2">user@email.domain</span></p>
                     
-                        <p class="text-muted mb-1 font-13"><strong>Location :</strong> <span class="ms-2">USA</span></p>
+                        <p class="text-muted mb-1 font-13"><strong>Instansi :</strong> <span class="ms-2">USA</span></p>
                     </div>                                    
 
                     <ul class="social-list list-inline mt-3 mb-0">
                         <li class="list-inline-item">
-                            <a href="javascript: void(0);" class="social-list-item text-center border-primary text-primary"><i class="mdi mdi-facebook"></i></a>
-                        </li>
+                            <a href="javascript: void(0);" class="social-list-item text-center border-primary text-primary"><i class="mdi mdi-instagram"></i></a>
                         <li class="list-inline-item">
-                            <a href="javascript: void(0);" class="social-list-item text-center border-danger text-danger"><i class="mdi mdi-google"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="javascript: void(0);" class="social-list-item text-center border-info text-info"><i class="mdi mdi-twitter"></i></a>
+                            <a href="javascript: void(0);" class="social-list-item text-center border-info text-info"><i class="mdi mdi-gmail"></i></a>
                         </li>
                         <li class="list-inline-item">
                             <a href="javascript: void(0);" class="social-list-item text-center border-secondary text-secondary"><i class="mdi mdi-github"></i></a>
@@ -76,15 +72,15 @@
                 <div class="card-body text-center">
                     <div class="row">
                         <div class="col-4 border-end border-light">
-                            <h5 class="text-muted mt-1 mb-2 fw-normal">Applied</h5>
+                            <h5 class="text-muted mt-1 mb-2 fw-normal">Followers</h5>
                             <h2 class="mb-0 fw-bold">116</h2>
                         </div>
                         <div class="col-4 border-end border-light">
-                            <h5 class="text-muted mt-1 mb-2 fw-normal">Reviewed</h5>
+                            <h5 class="text-muted mt-1 mb-2 fw-normal">Following</h5>
                             <h2 class="mb-0 fw-bold">87</h2>
                         </div>
                         <div class="col-4">
-                            <h5 class="text-muted mt-1 mb-2 fw-normal">Contacted</h5>
+                            <h5 class="text-muted mt-1 mb-2 fw-normal">Posts</h5>
                             <h2 class="mb-0 fw-bold">98</h2>
                         </div>
                     </div>
@@ -227,107 +223,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <div class="dropdown float-end">
-                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="mdi mdi-dots-vertical"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end">
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                        </div>
-                    </div>
-
-                    <h4 class="header-title mb-3">Upcoming Reminders <i class="mdi mdi-adjust ms-1"></i></h4>
-
-                    <div class="list-group">
-                        <a href="#" class="my-1">
-                            <div class="d-flex align-items-start" id="tooltips-container">
-                                <div class="">
-                                    <i class="mdi mdi-circle h3 text-primary"></i>
-                                </div>
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1 mt-0">New Admin Layout Discuss</h5>
-                                    <ul class="list-inline text-muted font-12">
-                                        <li class="list-inline-item"><i class="mdi mdi-calendar-blank-outline me-1"></i>10 May 2021</li>
-                                        <li class="list-inline-item"> - </li>
-                                        <li class="list-inline-item"><i class="mdi mdi-clock-time-eight-outline me-1"></i>09:00am <span class="px-1">To</span> 10:30am</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="my-1">
-                            <div class="d-flex align-items-start" id="tooltips-container">
-                                <div class="">
-                                    <i class="mdi mdi-circle h3 text-pink"></i>
-                                </div>
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1 mt-0">Landing Pages Planning</h5>
-                                    <ul class="list-inline text-muted font-12">
-                                        <li class="list-inline-item"><i class="mdi mdi-calendar-blank-outline me-1"></i>10 May 2021</li>
-                                        <li class="list-inline-item"> - </li>
-                                        <li class="list-inline-item"><i class="mdi mdi-clock-time-eight-outline me-1"></i>02:00pm <span class="px-1">To</span> 4:00pm</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="my-1">
-                            <div class="d-flex align-items-start" id="tooltips-container">
-                                <div class="">
-                                    <i class="mdi mdi-circle h3 text-success"></i>
-                                </div>
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1 mt-0">Meet Our Clients</h5>
-                                    <ul class="list-inline text-muted font-12">
-                                        <li class="list-inline-item"><i class="mdi mdi-calendar-blank-outline me-1"></i>11 May 2021</li>
-                                        <li class="list-inline-item"> - </li>
-                                        <li class="list-inline-item"><i class="mdi mdi-clock-time-eight-outline me-1"></i>08:00am <span class="px-1">To</span> 11:20am</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="my-1">
-                            <div class="d-flex align-items-start" id="tooltips-container">
-                                <div class="">
-                                    <i class="mdi mdi-circle h3 text-warning"></i>
-                                </div>
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1 mt-0">Project Discussion</h5>
-                                    <ul class="list-inline text-muted font-12">
-                                        <li class="list-inline-item"><i class="mdi mdi-calendar-blank-outline me-1"></i>11 May 2021</li>
-                                        <li class="list-inline-item"> - </li>
-                                        <li class="list-inline-item"><i class="mdi mdi-clock-time-eight-outline me-1"></i>12:00am <span class="px-1">To</span> 03:00am</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="my-1">
-                            <div class="d-flex align-items-start" id="tooltips-container">
-                                <div class="">
-                                    <i class="mdi mdi-circle h3 text-dark"></i>
-                                </div>
-                                <div class="w-100 ms-2">
-                                    <h5 class="mb-1 mt-0">Businees Meeting</h5>
-                                    <ul class="list-inline text-muted font-12">
-                                        <li class="list-inline-item"><i class="mdi mdi-calendar-blank-outline me-1"></i>12 May 2021</li>
-                                        <li class="list-inline-item"> - </li>
-                                        <li class="list-inline-item"><i class="mdi mdi-clock-time-eight-outline me-1"></i>08:30am <span class="px-1">To</span> 10:00am</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                        
-                    </div>
-                </div>
-            </div>
         </div> <!-- end col-->
 
         <div class="col-xl-7">
@@ -461,7 +356,7 @@
 <style type="text/css">
 body{
     background-color:#ecf2f5;
-    margin-top:20px;
+    margin-top:100px;
 }
 
 .card {
