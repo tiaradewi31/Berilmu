@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> BERILMU | ABOUT</title>
-    <link rel="icon" href="https://www.figma.com/file/FqcuVgfJW18yCWHcsfsH2H/BERILMU-BISMILLAH?node-id=250%3A3&t=u8T3eIyrtMraXvHv-4" type = "image/x-icon">
+    <link rel="icon" href="http://127.0.0.1:8000/img/Toga.png" type = "image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
@@ -21,7 +21,7 @@
       <h2 style ="margin:80px;">Our Team</h2>
       <div class="row">
         <div class="col">
-          <img src="img/Fitri.png" class="rounded-circle" alt="" style="width:75%;">
+          <img src="img/Fitri.png" class="rounded-circle" alt="Fitri Farida Solihati" style="width:75%;">
           <h5 style="margin:20px;">Fitri Farida Solihati</h5>
           <p>2103753</p>
         </div>
@@ -29,12 +29,12 @@
           Column
         </div>
         <div class="col">
-          <img src="img/Reisa.jpg" class="rounded-circle" alt="" style="width: 75%;">
+          <img src="img/Reisa.jpg" class="rounded-circle" alt="Reisa Aulia Sodikin" style="width: 75%;">
           <h5 style="margin:20px;">Reisa Aulia Sodikin</h5>
           <p>2102423</p>
         </div>
         <div class="col">
-          <img src="img/Tiara.jpeg" class="rounded-circle" alt="" style="width:75%;">
+          <img src="img/Tiara.jpeg" class="rounded-circle" alt="Tiara Dewi Ibnatun Solihat" style="width:75%;">
           <h5 style="margin:20px;">Tiara Dewi Ibnatun Solihat</h5>
           <p>2100686</p>
         </div>
