@@ -10,7 +10,7 @@
   
     <nav class="navbar fixed-top navbar-expand-lg" style= "background-color : rgb(136, 212, 255)">
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="\homepage">
           <img src="img/logoputih.png"  alt="" width="60">
         </a>    
         <div class=" justify-content-end" id="navbarSupportedContent">

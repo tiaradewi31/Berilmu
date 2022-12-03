@@ -29,8 +29,7 @@
               <label for="exampleInputPassword1" class="form-label">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn btn-primary btn-lg btn-block" style="width: 478px; height: 50px; left: 835px; top: 672px; background: #46B8F9; border: 1px solid #635C5C; border-radius: 20px;">Masuk</button>
-          </form>
+            <a aria-current="page" href="\homepage"><button type="submit" class="btn btn-primary btn-lg btn-block" style="width: 478px; height: 50px; left: 835px; top: 672px; background: #46B8F9; border: 1px solid #635C5C; border-radius: 20px;">Masuk</button></form></a>
         </div>
       </div>
     </div>
