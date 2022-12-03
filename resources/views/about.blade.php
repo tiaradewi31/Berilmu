@@ -12,7 +12,7 @@
   </head>
   <body>
 
-    @include('navbar2')
+    @include('navbarsudahlogin')
 
     <div class ="container text-center">
         <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 182px; margin: 176px;">
