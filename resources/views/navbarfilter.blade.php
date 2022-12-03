@@ -8,8 +8,8 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style= "color: ">
             <div class="navMenu">
-                <ul class="navbar-nav">
-                <li class="nav-item dropdown">
+                <ul class="navbar-nav" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
+                <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 10px;">
                     <a class="nav-link dropdown-toggle" style= "color : black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jenis</a>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">RPP</a></li>
@@ -18,27 +18,26 @@
                     <li><a class="dropdown-item" href="#">ATP</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 10px;">
                     <a class="nav-link dropdown-toggle" style= "color : black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jenjang</a>
                     <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">SD</a></li>
-                    <li><a class="dropdown-item" href="#">SMP</a></li>
-                    <li><a class="dropdown-item" href="#">SMA</a></li>
-                    <li><a class="dropdown-item" href="#">SMK</a></li>
+                    <li><a class="dropdown-item" href="#">SD/MI</a></li>
+                    <li><a class="dropdown-item" href="#">SMP/MTS</a></li>
+                    <li><a class="dropdown-item" href="#">SMA/SMK/MA</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 10px;">
                     <a class="nav-link dropdown-toggle" style= "color : black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jenis Sekolah</a>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Negeri</a></li>
                     <li><a class="dropdown-item" href="#">Swasta</a></li>
-                    <li><a class="dropdown-item" href="#">Madrasah Aliyah</a></li>
+                    <li><a class="dropdown-item" href="#">Madrasah</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 10px;">
                     <a class="nav-link dropdown-toggle" style= "color : black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mata Pelajaran</a>
                     <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">PKN</a></li>
+                    <li><a class="dropdown-item" href="#">PKn</a></li>
                     <li><a class="dropdown-item" href="#">Matematika</a></li>
                     <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
                     <li><a class="dropdown-item" href="#">IPA</a></li>
@@ -50,8 +49,10 @@
                     <li><a class="dropdown-item" href="#">Fisika</a></li>
                     <li><a class="dropdown-item" href="#">Biologi</a></li>
                     <li><a class="dropdown-item" href="#">Kimia</a></li>
-
                     </ul>
+                </li>
+                <li class="nav-item" style="padding-left: 20px">
+                    <a class="nav-link" aria-current="page" href="\profil"><img src="img/fotoprofil.png" alt="" style="width:40%;"></a>
                 </li>
                 </ul>
             </div>
