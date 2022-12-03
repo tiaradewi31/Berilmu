@@ -45,6 +45,10 @@ Route::get('/navbarsudahlogin', function () {
     return view('navbarsudahlogin');
 });
 
+Route::get('searchpage', function () {
+    return view('searchpage');
+});
+
 Route::get('/posts', function () {
     return view('posts');
 });
