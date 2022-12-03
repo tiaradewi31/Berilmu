@@ -3,15 +3,19 @@
     src: url(https://fonts.google.com/specimen/Pridi?query=pridi);
 }
 
-h2{
+.text-uppercase .fw-bold{
     font-family: "Pridi", serif;
     font-size: 64px;
-    font-style: Bold;
+    padding-bottom: 50px;
+}
+
+.card-body{
+    padding:50px;
 }
 
 p{
-    padding: 70px;
     font-family: "Pridi", serif;
     font-size: 20px;
     font-style: normal;
+    line-height: 30px;
 }
