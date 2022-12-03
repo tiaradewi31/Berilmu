@@ -11,7 +11,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    @include('navbar2')
+    @include('navbarsudahlogin')
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
 
@@ -21,15 +21,13 @@
             <div class="card">
                 <div class="card-body">
                     <div class="dropdown float-end">
-                    <button class="btn btn-block" type="button" data-toggle="modal" href="/editprofil">Edit</button>   
+                    <button class="btn btn-block" type="button" data-toggle="modal"><a href="/editprofil">Edit</a></button>   
                     </div>
                     <div class="d-flex align-items-start">
                         <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle avatar-lg img-thumbnail" alt="profile-image">
                         <div class="w-100 ms-3">
                             <h4 class="my-0">Geneva McKnight</h4>
                             <p class="text-muted">@webdesigner</p>
-                            <button type="button" class="btn btn-soft-primary btn-xs waves-effect mb-2 waves-light">Follow</button>
-                            <button type="button" class="btn btn-soft-success btn-xs waves-effect mb-2 waves-light">Message</button>
                         </div>
                     </div>
 
@@ -57,17 +55,11 @@
             <div class="card">
                 <div class="card-body text-center">
                     <div class="row">
-                        <div class="col-4 border-end border-light">
-                            <h5 class="text-muted mt-1 mb-2 fw-normal">Followers</h5>
-                            <h2 class="mb-0 fw-bold">116</h2>
+                        <div class="col-6 border-end border-light">
+                        <h2 class="mb-0 fw-bold">Posts</h2>
                         </div>
-                        <div class="col-4 border-end border-light">
-                            <h5 class="text-muted mt-1 mb-2 fw-normal">Following</h5>
+                        <div class="col-6 border-end border-light">
                             <h2 class="mb-0 fw-bold">87</h2>
-                        </div>
-                        <div class="col-4">
-                            <h5 class="text-muted mt-1 mb-2 fw-normal">Posts</h5>
-                            <h2 class="mb-0 fw-bold">98</h2>
                         </div>
                     </div>
                 </div>
@@ -79,7 +71,7 @@
                     <h4 class="header-title mb-3">Posts</h4>
 
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action">
+                        <a href="/posts" class="list-group-item list-group-item-action">
                             <div class="d-flex align-items-center pb-1" id="tooltips-container">
                                 <div class="w-100 ms-2">
                                     <h4 class="mb-1">RPP</h4>
@@ -87,7 +79,7 @@
                                 <i class="mdi mdi-chevron-right h2"></i>
                             </div>
                         </a>
-                        <a href="#" class="list-group-item list-group-item-action">
+                        <a href="/posts" class="list-group-item list-group-item-action">
                             <div class="d-flex align-items-center pb-1" id="tooltips-container">
                                 <div class="w-100 ms-2">
                                     <h4 class="mb-1">Silabus</h4>
@@ -95,7 +87,7 @@
                                 <i class="mdi mdi-chevron-right h2"></i>
                             </div>
                         </a>
-                        <a href="#" class="list-group-item list-group-item-action">
+                        <a href="posts" class="list-group-item list-group-item-action">
                             <div class="d-flex align-items-center pb-1" id="tooltips-container">
                                 <div class="w-100 ms-2">
                                     <h4 class="mb-1">Modul Ajar</h4>
@@ -103,7 +95,7 @@
                                 <i class="mdi mdi-chevron-right h2"></i>
                             </div>
                         </a>
-                        <a href="#" class="list-group-item list-group-item-action">
+                        <a href="posts" class="list-group-item list-group-item-action">
                             <div class="d-flex align-items-center pb-1" id="tooltips-container">
                                 <div class="w-100 ms-2">
                                     <h4 class="mb-1">ATP</h4>
@@ -114,79 +106,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="header-title mb-3">Inbox</h4>
-
-                    <div class="inbox-widget" data-simplebar="init" style="max-height: 350px;"><div class="simplebar-wrapper" style="margin: 0px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: 0px; bottom: 0px;"><div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;"><div class="simplebar-content" style="padding: 0px;">
-                        <div class="d-flex align-items-center pb-1" id="tooltips-container">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Tomaslau</h5>
-                                <p class="mb-0 font-13">I've finished it! See you so...</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                        <div class="d-flex align-items-center py-1" id="tooltips-container1">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Stillnotdavid</h5>
-                                <p class="mb-0 font-13">This theme is awesome!</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container1" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                        <div class="d-flex align-items-center py-1" id="tooltips-container2">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Shahedk</h5>
-                                <p class="mb-0 font-13">Hey! there I'm available...</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container2" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                        <div class="d-flex align-items-center py-1" id="tooltips-container3">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Kurafire</h5>
-                                <p class="mb-0 font-13">Nice to meet you</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container3" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                        <div class="d-flex align-items-center py-1" id="tooltips-container4">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar6.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Adhamdannaway</h5>
-                                <p class="mb-0 font-13">This theme is awesome!</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container4" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                        <div class="d-flex align-items-center py-1" id="tooltips-container5">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Tomaslau</h5>
-                                <p class="mb-0 font-13">I've finished it! See you so...</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container5" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                        <div class="d-flex align-items-center py-1" id="tooltips-container6">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar8.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Shahedk</h5>
-                                <p class="mb-0 font-13">Hey! there I'm available...</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container6" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                        <div class="d-flex align-items-center pt-1" id="tooltips-container7">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="rounded-circle img-fluid avatar-md img-thumbnail bg-transparent" alt="">
-                            <div class="w-100 ms-3">
-                                <h5 class="mb-1">Stillnotdavid</h5>
-                                <p class="mb-0 font-13">This theme is awesome!</p>
-                            </div>
-                            <a href="javascript:(0);" class="btn btn-sm btn-soft-info font-13" data-bs-container="#tooltips-container7" data-bs-toggle="tooltip" data-bs-placement="left" title="" data-bs-original-title="Reply"> <i class="mdi mdi-reply"></i> </a>
-                        </div>
-                    </div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 532px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="width: 0px; display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="height: 230px; transform: translate3d(0px, 0px, 0px); display: block;"></div></div></div> <!-- end inbox-widget -->
-                </div>
-            </div> <!-- end card-->
         </div> <!-- end col-->
 
         <div class="col-xl-7">
