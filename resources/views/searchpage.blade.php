@@ -14,107 +14,95 @@
   @include('navbarfilter')
 
     <div class="container">
-      <div class = "text-center" style="margin: 100px;">
-      <style>
-        body{
-            background-color: #E8F2FD;
-            background-size: cover;
-            padding-top: 90px;
-        }
-      </style>
+      <div class = "text-center" style="margin: 100px; padding-top: 30px;">
         <h3>PERANGKAT PEMBELAJARAN<h3>
-        <form class="d-flex" style="padding-top: 20px" >
+        <form class="d-flex" style="padding-top: 20px;" >
             <input class="form-control me-2" href type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="padding-bottom: 100px">       
         <div class="col-md-6" style= "padding-left: 550px">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">Kurikulum 2013</label>
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">Kurikulum 2013</label>
         </div>
         <div class="col-md-6">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" for="flexCheckChecked">Kurikulum Merdeka Belajar</label>
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">Kurikulum Merdeka Belajar</label>
         </div>
     </div>
 
-  <div class="custom_container">
-    <div class="fitur_berilmu" style="padding-top: 200px;">
-    <div class="hasilpencarian">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <img src="img/SilabusTIK.webp"  alt="" width="90%">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
-            <h3>Judul</h3>
-            <h3>Nama Penulis</h3>
-            <h3>Tanggal terbit</h3>
-            <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-          </div>
+    <div class="custom_container" style="background-color: #E4F5FF; border-radius: 60px; padding-top: 50px; padding-bottom: 100px; margin-left: 100px; margin-right: 100px; margin-bottom: 200px">
+        <div class="hasilpencarian">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+                    <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
+                    <h3>Judul</h3>
+                    <h3>Nama Penulis</h3>
+                    <h3>Tanggal terbit</h3>
+                    <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hasilpencarian">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+                    <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
+                    <h3>Judul</h3>
+                    <h3>Nama Penulis</h3>
+                    <h3>Tanggal terbit</h3>
+                    <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hasilpencarian">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+                    <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
+                    <h3>Judul</h3>
+                    <h3>Nama Penulis</h3>
+                    <h3>Tanggal terbit</h3>
+                    <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hasilpencarian">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+                    <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
+                    <h3>Judul</h3>
+                    <h3>Nama Penulis</h3>
+                    <h3>Tanggal terbit</h3>
+                    <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hasilpencarian">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
+                    <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
+                    <h3>Judul</h3>
+                    <h3>Nama Penulis</h3>
+                    <h3>Tanggal terbit</h3>
+                    <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="fitur_berilmu">
-    <div class="hasilpencarian">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <img src="img/SilabusTIK.webp"  alt="" width="90%">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
-            <h3>Judul</h3>
-            <h3>Nama Penulis</h3>
-            <h3>Tanggal terbit</h3>
-            <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-          </div>
-        </div>
-    </div>
-    <div class="fitur_berilmu">
-    <div class="hasilpencarian">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <img src="img/SilabusTIK.webp"  alt="" width="90%">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
-            <h3>Judul</h3>
-            <h3>Nama Penulis</h3>
-            <h3>Tanggal terbit</h3>
-            <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-          </div>
-        </div>
-    </div>
-    <div class="fitur_berilmu">
-    <div class="hasilpencarian">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <img src="img/SilabusTIK.webp"  alt="" width="90%">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
-            <h3>Judul</h3>
-            <h3>Nama Penulis</h3>
-            <h3>Tanggal terbit</h3>
-            <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-          </div>
-        </div>
-    </div>
-    <div class="fitur_berilmu" style="padding-bottom: 150px;">
-    <div class="hasilpencarian">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <img src="img/SilabusTIK.webp"  alt="" width="90%">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 20px;padding-right: 100px;">
-            <h3>Judul</h3>
-            <h3>Nama Penulis</h3>
-            <h3>Tanggal terbit</h3>
-            <p class="">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-          </div>
-        </div>
-    </div>
-  </div>
-</div>
-    @include('footer')
+
+    @include ('footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
