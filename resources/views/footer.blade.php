@@ -48,9 +48,9 @@
                 </p>
 	        </div>
 	        <div class="column-dua">
-                <div class="sosmed">
-                    <img src="img/gmail.png"  alt="" width="70">
-                    <img src="img/instagram.png"  alt="" width="50">
+                <div class="sosmed" style= "padding-top: 30px">
+                    <img src="img/gmail.png"  alt="" width="40">
+                    <img src="img/instagram.png"  alt="" width="30">
                 </div>
             </div>
 	        <div class="column">
