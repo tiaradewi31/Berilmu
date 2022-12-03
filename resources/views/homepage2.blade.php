@@ -12,7 +12,7 @@
     </head>
   <body>
 
-  @include('navbar2')
+  @include('navbarsudahlogin')
 
     <div class="container">
       <div class = "text-center" style="margin: 150px;">
