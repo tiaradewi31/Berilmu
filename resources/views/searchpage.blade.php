@@ -33,11 +33,11 @@
     <div class="row">
         <div class="col-md-6" style= "padding-left: 550px">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">Kurikulum 2013</label>
+            <label class="form-check-label" for="flexCheckChecked">Kurikulum 2013</label>
         </div>
         <div class="col-md-6">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" for="flexCheckChecked">Kurikulum Merdeka Belajar</label>
+            <label class="form-check-label" for="flexCheckDefault">Kurikulum Merdeka Belajar</label>
         </div>
     </div>
 
