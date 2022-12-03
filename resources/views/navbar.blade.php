@@ -10,10 +10,10 @@
             <div class="navMenu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page"  style= "color : black" href="\login">LOG IN</a>
+                        <a class="nav-link" aria-current="page"  style= "color : black; padding-right: 20px;" href="\login"><b>LOG IN</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style= "color : black" href="\register">REGISTER</a>
+                        <a class="nav-link" style= "color : black;" href="\register"><b>REGISTER</b></a>
                     </li>
                 </ul>
             </div>

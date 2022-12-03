@@ -14,8 +14,8 @@
   @include('navbarfilter')
 
     <div class="container">
-      <div class = "text-center" style="margin: 100px; padding-top: 30px;">
-        <h3>PERANGKAT PEMBELAJARAN<h3>
+      <div class = "text-center" style="margin: 100px; padding-top: 30px; font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
+        <h3><b>PERANGKAT PEMBELAJARAN</b><h3>
         <form class="d-flex" style="padding-top: 20px;" >
             <input class="form-control me-2" href type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -26,15 +26,15 @@
     <div class="row" style="padding-bottom: 100px">       
         <div class="col-md-6" style= "padding-left: 550px">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" for="flexCheckChecked">Kurikulum 2013</label>
+            <label class="form-check-label" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);" for="flexCheckChecked"><b>Kurikulum 2013</b></label>
         </div>
         <div class="col-md-6">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">Kurikulum Merdeka Belajar</label>
+            <label class="form-check-label" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);" for="flexCheckDefault"><b>Kurikulum Merdeka Belajar</b></label>
         </div>
     </div>
 
-    <div class="custom_container" style="background-color: #E4F5FF; border-radius: 60px; padding-top: 50px; padding-bottom: 100px; margin-left: 100px; margin-right: 100px; margin-bottom: 200px">
+    <div class="custom_container" style="background-color: #E4F5FF; border-radius: 60px; padding-top: 50px; padding-bottom: 100px; margin-left: 100px; margin-right: 100px; margin-bottom: 200px; font-family: 'Pridi'; src: url(https://fonts.google.com/specimen/Pridi?query=pridi);">
         <div class="hasilpencarian">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
