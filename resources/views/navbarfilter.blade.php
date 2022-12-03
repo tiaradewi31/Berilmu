@@ -14,7 +14,6 @@
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">RPP</a></li>
                     <li><a class="dropdown-item" href="#">Silabus</a></li>
-                    <li><a class="dropdown-item" href="#">Media Pembelajaran</a></li>
                     <li><a class="dropdown-item" href="#">Modul Ajar</a></li>
                     <li><a class="dropdown-item" href="#">ATP</a></li>
                     </ul>

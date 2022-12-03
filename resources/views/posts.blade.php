@@ -16,7 +16,7 @@
 <div class="container">
   <!-- Title -->
   <div class="d-flex justify-content-between align-items-lg-center py-3 flex-column flex-lg-row">
-    <h2 class="h5 mb-3 mb-lg-0"><a href="../../pages/admin/customers.html" class="text-muted"><i class="bi bi-arrow-left-square me-2"></i></a>Post Perangkat Pembelajaran</h2>
+    <h2 style="padding: 1% 0% 1% 0%;">Posts Perangkat Pembelajaran</h2>
   </div>
 
   <!-- Main content -->
@@ -26,10 +26,9 @@
       <!-- Basic information -->
       <div class="card mb-4">
         <div class="card-body">
-          <h3 class="h6 mb-4">Basic information</h3>
+          <h3 class="h6 mb-4">Notes</h3>
           <div class="row">
             <div class="col-lg-12">
-            <h3 class="h6">Notes</h3>
             <textarea class="form-control" rows="3"></textarea>
             </div>
           </div>
@@ -38,70 +37,46 @@
       <!-- Address -->
       <div class="card mb-4">
         <div class="card-body">
-          <h3 class="h6 mb-4">Address</h3>
+          <h3 class="h6 mb-4">Perangkat Pembelajaran</h3>
+          <div class="input-group mb-3">
+            <input type="file" accept="application/pdf" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">RPP, Silabus, Modul Ajar, ATP.pdf</label>
+          </div>
+          <h3 class="h6 mb-4">Media Pembelajaran</h3>
           <div class="mb-3">
-            <label class="form-label">Address Line 1</label>
-            <input type="text" class="form-control">
+            <input type="url" ac class="form-control" id="exampleFormControlInput1" placeholder="https://youtu.be/">
           </div>
+          <h3 class="h6 mb-4">Kurikulum</h3>
           <div class="mb-3">
-            <label class="form-label">Address Line 2</label>
-            <input type="text" class="form-control">
+            <select class="form-select">
+              <option value="Kurikulum Merdeka" selected="">Kurikulum Merdeka</option>
+              <option value="Kurikulum 2013">Kurikulum 2013</option>
+            </select>
           </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="mb-3">
-                <label class="form-label">Country</label>
-                <select class="select2 form-control select2-hidden-accessible" data-select2-placeholder="Select country" data-select2-id="select2-data-1-gy14" tabindex="-1" aria-hidden="true">
-                  <option data-select2-id="select2-data-3-ibs9"></option>
-                  <option value="AF">Afghanistan</option>
-                  <option value="BS">Bahamas</option>
-                  <option value="KH">Cambodia</option>
-                  <option value="DK">Denmark</option>
-                  <option value="TL">East Timor</option>
-                  <option value="GM">Gambia</option>
-                </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="select2-data-2-46y9" style="width: 391px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-vp8l-container" aria-controls="select2-vp8l-container"><span class="select2-selection__rendered" id="select2-vp8l-container" role="textbox" aria-readonly="true" title="Select country"><span class="select2-selection__placeholder">Select country</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="mb-3">
-                <label class="form-label">State</label>
-                <select class="select2 form-control select2-hidden-accessible" data-select2-placeholder="Select state" data-select2-id="select2-data-4-680y" tabindex="-1" aria-hidden="true">
-                  <option data-select2-id="select2-data-6-cshs"></option>
-                  <option value="AL">Alabama</option>
-                  <option value="CA">California</option>
-                  <option value="DE">Delaware</option>
-                  <option value="FL">Florida</option>
-                  <option value="GA">Georgia</option>
-                  <option value="HI">Hawaii</option>
-                  <option value="ID">Idaho</option>
-                  <option value="KS">Kansas</option>
-                </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="select2-data-5-np4c" style="width: 391px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-2fn7-container" aria-controls="select2-2fn7-container"><span class="select2-selection__rendered" id="select2-2fn7-container" role="textbox" aria-readonly="true" title="Select state"><span class="select2-selection__placeholder">Select state</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-            </div>
+          <h3 class="h6 mb-4">Jenjang</h3>
+          <div class="mb-3">
+            <select class="form-select">
+              <option value="SD/MI" selected="">SD/MI</option>
+              <option value="SMP/MTS">SMP/MTS</option>
+              <option value="SMA/SMK/MA">SMA/SMK/MA</option>
+            </select>
           </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="mb-3">
-                <label class="form-label">City</label>
-                <select class="select2 form-control select2-hidden-accessible" data-select2-placeholder="Select city" data-select2-id="select2-data-7-809c" tabindex="-1" aria-hidden="true">
-                  <option data-select2-id="select2-data-9-k35n"></option>
-                  <option value="b">Bangkok</option>
-                  <option value="d">Dubai</option>
-                  <option value="h">Hong Kong</option>
-                  <option value="k">Kuala Lumpur</option>
-                  <option value="l">London</option>
-                  <option value="n">New York City</option>
-                  <option value="m">Macau</option>
-                  <option value="p">Paris</option>
-                </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="select2-data-8-3peu" style="width: 391px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-jdfi-container" aria-controls="select2-jdfi-container"><span class="select2-selection__rendered" id="select2-jdfi-container" role="textbox" aria-readonly="true" title="Select city"><span class="select2-selection__placeholder">Select city</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="mb-3">
-                <label class="form-label">ZIP code</label>
-                <input type="text" class="form-control">
-              </div>
-            </div>
+          <h3 class="h6 mb-4">Mata Pelajaran</h3>
+          <div class="mb-3">
+              <select class="form-select">
+              <option value="PKn" selected="">PKn</option>
+              <option value="Matematika">Matematika</option>
+              <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+              <option value="IPA">IPA</option>
+              <option value="IPS">IPS</option>
+              <option value="TIK">TIK</option>
+              <option value="Bahasa Inggris">Bahasa Inggris</option>
+              <option value="SBK">SBK</option>
+              <option value="PJOK">PJOK</option>
+              <option value="Fisika">Fisika</option>
+              <option value="Geologi">Geologi</option>
+              <option value="Kimis">Kimia</option>
+            </select>
           </div>
         </div>
       </div>
@@ -114,22 +89,8 @@
           <h3 class="h6">Status</h3>
           <select class="form-select">
             <option value="draft" selected="">Draft</option>
-            <option value="active">Post</option>
+            <option value="Post">Post</option>
           </select>
-        </div>
-      </div>
-      <!-- Avatar -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h3 class="h6">Avatar</h3>
-          <input class="form-control" type="file">
-        </div>
-      </div>
-      <!-- Notes -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h3 class="h6">Notes</h3>
-          <textarea class="form-control" rows="3"></textarea>
         </div>
       </div>
       <!-- Notification settings -->
@@ -156,10 +117,10 @@
           </ul>
         </div>
       </div>
-      <div class="hstack gap-3">
-      <button class="btn btn-light btn-sm btn-icon-text"><i class="bi bi-x"></i> <span class="text">Cancel</span></button>
-      <button class="btn btn-primary btn-sm btn-icon-text"><i class="bi bi-save"></i> <span class="text">Save</span></button>
-    </div>
+      <div class="hstack gap-3" style="padding-top: 10%;">
+        <input class="btn btn-outline-primary btn-lg" type="submit" value="Save">
+        <input class="btn btn-outline-success btn-lg" type="reset" value="Cancel">
+      </div>
     </div>
   </div>
 </div>
@@ -168,11 +129,11 @@
 
 <style type="text/css">
 body{
-    background:#eee;
+    background:#E8F2FD;
 }
 
 .card {
-    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 10%);
 }
 
 .card {
