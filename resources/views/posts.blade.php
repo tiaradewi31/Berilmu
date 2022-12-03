@@ -122,7 +122,8 @@
       <div class="card mb-4">
         <div class="card-body">
           <h3 class="h6">Avatar</h3>
-          <input class="form-control" type="file">
+          <input class="form-control" type="file" accept="pdf/*">
+          <input class="form-control" type="file" accept="image/*">
         </div>
       </div>
       <!-- Notes -->
@@ -159,7 +160,7 @@
       <div class="hstack gap-3">
       <button class="btn btn-light btn-sm btn-icon-text"><i class="bi bi-x"></i> <span class="text">Cancel</span></button>
       <button class="btn btn-primary btn-sm btn-icon-text"><i class="bi bi-save"></i> <span class="text">Save</span></button>
-    </div>
+      </div>
     </div>
   </div>
 </div>

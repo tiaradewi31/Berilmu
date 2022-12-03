@@ -38,6 +38,7 @@
 
     <div class="container">
       <button class="btn"><i class="fa fa-download"></i> Unduh</button>
+      <button class="btn"><i class="fa fa-play"></i> Tonton</button>
     </div>
 
     @include('footer')

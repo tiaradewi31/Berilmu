@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/homepage', function () {
-    return view('homepage2');
+    return view('homepagesudahlogin');
 });
 
 Route::get('/login', function () {
@@ -33,8 +33,8 @@ Route::get('/profil', function () {
     return view('profil');
 });
 
-Route::get('/detail_perangkatpembelajaran', function () {
-    return view('detail_perangkatpembelajaran');
+Route::get('/detail', function () {
+    return view('detail');
 });
 
 Route::get('/about', function () {
