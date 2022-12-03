@@ -55,7 +55,7 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%; border-radius:10px 10px 0 0;">
+              <div class="advisor_thumb"><img src="img/niki.jpeg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
                 <!-- Social Info-->
                 <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
               </div>
