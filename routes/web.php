@@ -45,7 +45,7 @@ Route::get('/navbarsudahlogin', function () {
     return view('navbarsudahlogin');
 });
 
-Route::get('searchpage', function () {
+Route::get('/searchpage', function () {
     return view('searchpage');
 });
 
