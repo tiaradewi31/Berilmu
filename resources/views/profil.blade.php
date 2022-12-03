@@ -22,17 +22,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="dropdown float-end">
-                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="mdi mdi-dots-vertical"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end">
-                            <!-- item-->
-                            <a data-target:="#user-form-modal" class="dropdown-item">Edit</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Delete</a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">Block</a>
-                        </div>
+                    <button class="btn btn-block" type="button" data-toggle="modal" href="/editprofil">Edit</button>   
                     </div>
                     <div class="d-flex align-items-start">
                         <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle avatar-lg img-thumbnail" alt="profile-image">
@@ -323,6 +313,7 @@
             </div> <!-- end card-->
 
         </div> <!-- end col -->
+
         <!-- User Form Modal -->
     <div class="modal fade" role="dialog" tabindex="-1" id="user-form-modal">
       <div class="modal-dialog modal-lg" role="document">
