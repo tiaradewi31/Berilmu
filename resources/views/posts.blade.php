@@ -20,109 +20,134 @@
   </div>
 
   <!-- Main content -->
-  <div class="row">
-    <!-- Left side -->
-    <div class="col-lg-8">
-      <!-- Basic information -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h3 class="h6 mb-4">Notes</h3>
-          <div class="row">
-            <div class="col-lg-12">
-            <textarea class="form-control" rows="3"></textarea>
+  <form class="was-validated">
+    <div class="row">
+      <!-- Left side -->
+      <div class="col-lg-8">
+        <!-- Basic information -->
+        <div class="card mb-4">
+          <div class="card-body was-validated">
+            <h3 class="h6 mb-4"><label for="validationTextarea" class="form-label">Notes</label></h3>
+            <div class="row">
+              <div class="col-lg-12">
+                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a Notes in the textarea.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Posts -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="mb-3">
+              <h3 class="h6 mb-4">Perangkat Pembelajaran</h3>
+                <div class="input-group mb-3">
+                  <input type="file" accept="application/pdf" class="form-control" id="inputGroupFile02" aria-label="file example" required>
+                  <label class="input-group-text" for="inputGroupFile02">RPP, Silabus, Modul Ajar, ATP.pdf</label>
+                  <div class="invalid-feedback">Example invalid form file feedback</div>
+                </div>            
+            </div>
+          
+            <div class="mb-3">
+              <h3 class="h6 mb-4">Media Pembelajaran</h3>
+              <input type="url" class="form-control" placeholder="https://youtu.be/" required>
+            </div>
+
+            <div class="mb-3">
+              <h3 class="h6 mb-4">Kurikulum</h3>
+                <select class="form-select" required aria-label="select example">
+                  <option selected disabled value="">Pilih Kurikulum...</option>
+                  <option value="Kurikulum Merdeka">Kurikulum Merdeka</option>
+                  <option value="Kurikulum 2013">Kurikulum 2013</option>
+                </select>
+              <div class="invalid-feedback">Example invalid select feedback</div>
+            </div>
+
+            <div class="mb-3">
+              <h3 class="h6 mb-4">Jenjang</h3>
+                <select class="form-select" required aria-label="select example">
+                  <option selected disabled value="">Pilih Jenjang...</option>
+                  <option value="SD/MI">SD/MI</option>
+                  <option value="SMP/MTS">SMP/MTS</option>
+                  <option value="SMA/SMK/MA">SMA/SMK/MA</option>
+                </select>
+              <div class="invalid-feedback">Example invalid select feedback</div>
+            </div>
+
+            <div class="mb-3">
+              <h3 class="h6 mb-4">Mata Pelajaran</h3>
+                <select class="form-select" required aria-label="select example">
+                  <option selected disabled value="">Pilih Mata Pelajaran...</option>
+                  <option value="PKn">PKn</option>
+                  <option value="Matematika">Matematika</option>
+                  <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+                  <option value="IPA">IPA</option>
+                  <option value="IPS">IPS</option>
+                  <option value="TIK">TIK</option>
+                  <option value="Bahasa Inggris">Bahasa Inggris</option>
+                  <option value="SBK">SBK</option>
+                  <option value="PJOK">PJOK</option>
+                  <option value="Fisika">Fisika</option>
+                  <option value="Geologi">Geologi</option>
+                  <option value="Kimia">Kimia</option>
+                </select>
+              <div class="invalid-feedback">Example invalid select feedback</div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Address -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h3 class="h6 mb-4">Perangkat Pembelajaran</h3>
-          <div class="input-group mb-3">
-            <input type="file" accept="application/pdf" class="form-control" id="inputGroupFile02">
-            <label class="input-group-text" for="inputGroupFile02">RPP, Silabus, Modul Ajar, ATP.pdf</label>
-          </div>
-          <h3 class="h6 mb-4">Media Pembelajaran</h3>
-          <div class="mb-3">
-            <input type="url" ac class="form-control" id="exampleFormControlInput1" placeholder="https://youtu.be/">
-          </div>
-          <h3 class="h6 mb-4">Kurikulum</h3>
-          <div class="mb-3">
-            <select class="form-select">
-              <option value="Kurikulum Merdeka" selected="">Kurikulum Merdeka</option>
-              <option value="Kurikulum 2013">Kurikulum 2013</option>
-            </select>
-          </div>
-          <h3 class="h6 mb-4">Jenjang</h3>
-          <div class="mb-3">
-            <select class="form-select">
-              <option value="SD/MI" selected="">SD/MI</option>
-              <option value="SMP/MTS">SMP/MTS</option>
-              <option value="SMA/SMK/MA">SMA/SMK/MA</option>
-            </select>
-          </div>
-          <h3 class="h6 mb-4">Mata Pelajaran</h3>
-          <div class="mb-3">
-              <select class="form-select">
-              <option value="PKn" selected="">PKn</option>
-              <option value="Matematika">Matematika</option>
-              <option value="Bahasa Indonesia">Bahasa Indonesia</option>
-              <option value="IPA">IPA</option>
-              <option value="IPS">IPS</option>
-              <option value="TIK">TIK</option>
-              <option value="Bahasa Inggris">Bahasa Inggris</option>
-              <option value="SBK">SBK</option>
-              <option value="PJOK">PJOK</option>
-              <option value="Fisika">Fisika</option>
-              <option value="Geologi">Geologi</option>
-              <option value="Kimis">Kimia</option>
-            </select>
+      <!-- Right side -->
+      <div class="col-lg-4">
+        <!-- Status -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <h3 class="h6 mb-4">Simpan Sebagai</h3>
+              <select class="form-select" required aria-label="select example">
+                <option selected disabled value="">Pilih...</option>
+                <option value="Draft">Draft</option>
+                <option value="Post">Post</option>
+              </select>
+            <div class="invalid-feedback">Example invalid select feedback</div>
           </div>
         </div>
+        
+        <!-- Jenis Perangkat Pembelajaran -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <h3 class="h6">Jenis Perangkat Pembelajaran</h3>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck2">RPP</label>
+            </div>
+      
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck2">Silabus</label>
+            </div>
+            
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck2">Modul Ajar</label>
+            </div>
+          
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck2">ATP</label>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hstack gap-3" style="padding-top: 10%;">
+          <input class="btn btn-outline-primary btn-lg" type="submit" value="Save">
+          <input class="btn btn-outline-success btn-lg" type="reset" value="Clear">
+          <a class="btn btn-outline-danger btn-lg" href="/profil" role="button">Back</a>
+        </div>
+
       </div>
     </div>
-    <!-- Right side -->
-    <div class="col-lg-4">
-      <!-- Status -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h3 class="h6">Status</h3>
-          <select class="form-select">
-            <option value="draft" selected="">Draft</option>
-            <option value="Post">Post</option>
-          </select>
-        </div>
-      </div>
-      <!-- Notification settings -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h3 class="h6">Notification Settings</h3>
-          <ul class="list-group list-group-flush mx-n2">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">RPP</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">Silabus</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">Bahan Ajar</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">ATP</label>
-            </div>
-          </ul>
-        </div>
-      </div>
-      <div class="hstack gap-3" style="padding-top: 10%;">
-        <input class="btn btn-outline-primary btn-lg" type="submit" value="Save">
-        <input class="btn btn-outline-success btn-lg" type="reset" value="Cancel">
-      </div>
-    </div>
-  </div>
+  </form>
 </div>
 
   </div>
