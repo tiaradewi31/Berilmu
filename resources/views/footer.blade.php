@@ -41,10 +41,10 @@
 	    <div class="container-footer">
 	        <div class="column">
                 <p>
-                    <a href="/about" class="nav-link text-dark">About Berilmu</a>
+                    <a href="/about" class="nav-link text-dark" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">About Berilmu</a>
                 </p>
                 <p>
-                    <a href="/searchpage" class="nav-link text-dark">Cari Perangkat Pembelajaran</a>
+                    <a href="/searchpage" class="nav-link text-dark" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">Cari Perangkat Pembelajaran</a>
                 </p>
 	        </div>
 	        <div class="column-dua">
@@ -57,7 +57,7 @@
                 <img src="img/togaberilmuputih.png"  alt="" width="200">
 	        </div>
 	    </div>
-        <div class="text-center p-4">
+        <div class="text-center p-4" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
         © 2022 Copyright:
         <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Berilmu.com</a>
         </div>
