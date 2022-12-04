@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
     <!--  All snippets are MIT license http://bootdey.com/license -->
-    <title>bs4 edit profile page - Bootdey.com</title>
+    <title>Edit Profil | BERILMU</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,18 +14,6 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="container">
 <div class="row flex-lg-nowrap">
-  <div class="col-12 col-lg-auto mb-3" style="width: 200px;">
-    <div class="card p-3">
-      <div class="e-navlist e-navlist--active-bg">
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link px-2 active" href="#"><i class="fa fa-fw fa-bar-chart mr-1"></i><span>Overview</span></a></li>
-          <li class="nav-item"><a class="nav-link px-2" href="https://www.bootdey.com/snippets/view/bs4-crud-users" target="__blank"><i class="fa fa-fw fa-th mr-1"></i><span>CRUD</span></a></li>
-          <li class="nav-item"><a class="nav-link px-2" href="https://www.bootdey.com/snippets/view/bs4-edit-profile-page" target="__blank"><i class="fa fa-fw fa-cog mr-1"></i><span>Settings</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
   <div class="col">
     <div class="row">
       <div class="col mb-3">
@@ -69,30 +57,32 @@
                         <div class="row">
                           <div class="col">
                             <div class="form-group">
-                              <label>Full Name</label>
-                              <input class="form-control" type="text" name="name" placeholder="John Smith" value="John Smith">
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="form-group">
-                              <label>Username</label>
-                              <input class="form-control" type="text" name="username" placeholder="johnny.s" value="johnny.s">
+                              <h4 class="mb-2"><label>Nama Lengkap</label></h4>
+                              <input class="form-control" type="text" name="name" value="">
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col">
                             <div class="form-group">
-                              <label>Email</label>
-                              <input class="form-control" type="text" placeholder="user@example.com">
+                              <h4 class="mb-2"><label>Email</label></h4>
+                              <input class="form-control" type="text">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <h4 class="mb-2"><label>Instansi</label></h4>
+                              <input class="form-control" type="text">
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col mb-3">
                             <div class="form-group">
-                              <label>About</label>
-                              <textarea class="form-control" rows="5" placeholder="My Bio"></textarea>
+                              <h4 class="mb-2"><label>About Me</label></h4>
+                              <textarea class="form-control" rows="5"></textarea>
                             </div>
                           </div>
                         </div>
@@ -148,13 +138,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col d-flex justify-content-end">
-                        <button class="btn btn-primary" type="submit">Save Changes</button>
-                      </div>
-                    </div>
                   </form>
-
                 </div>
               </div>
             </div>
@@ -165,32 +149,32 @@
       <div class="col-12 col-md-3 mb-3">
         <div class="card mb-3">
           <div class="card-body">
-            <div class="px-xl-3">
+            <div class="px-xl-3" style="padding: 2% 0% 1% 0%;">
               <button class="btn btn-block btn-secondary">
                 <i class="fa fa-sign-out"></i>
                 <span>Logout</span>
               </button>
+              <div class="row" style="margin-top: 15%;">
+                <div class="col d-flex justify-content-end">
+                <input class="btn btn-outline-primary btn-lg" type="submit" value="Save">
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h6 class="card-title font-weight-bold">Support</h6>
-            <p class="card-text">Get fast, free help from our friendly assistants.</p>
-            <button type="button" class="btn btn-primary">Contact Us</button>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </div>
 </div>
 
 <style type="text/css">
 body{
-    margin-top:20px;
-    background:#f8f8f8
+    margin:2%;
+    background:#E8F2FD
+}
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 10%);
 }
 </style>
 

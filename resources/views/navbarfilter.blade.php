@@ -6,7 +6,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style= "color: ">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <div class="navMenu">
                 <ul class="navbar-nav" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
                 <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 10px;">
