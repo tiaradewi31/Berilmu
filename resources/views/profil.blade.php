@@ -32,7 +32,15 @@
                     </div>
 
                     <div class="mt-3">
-                        <h4 class="font-13 text-uppercase">About Me :</h4>
+                    <div class="form-floating mb-3">
+                        <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
+                        <label for="floatingEmptyPlaintextInput">Empty input</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" readonly class="form-control-plaintext" id="floatingPlaintextInput" placeholder="name@example.com" value="name@example.com">
+                        <label for="floatingPlaintextInput">Input with value</label>
+                    </div>
+                    <h4 class="font-13 text-uppercase">About Me :</h4>
                         <p class="text-muted font-13 mb-3">
                             Hi I'm Johnathn Deo,has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
                         </p>
@@ -67,9 +75,7 @@
 
             <div class="card">
                 <div class="card-body">
-                
                     <h4 class="header-title mb-3">Posts</h4>
-
                     <div class="list-group">
                         <a href="/posts" class="list-group-item list-group-item-action">
                             <div class="d-flex align-items-center pb-1" id="tooltips-container">
@@ -111,126 +117,100 @@
         <div class="col-xl-7">
             <div class="card">
                 <div class="card-body">
-                    <!-- comment box -->
-                    <form action="#" class="comment-area-box mb-3">
-                        <span class="input-icon">
-                            <textarea rows="3" class="form-control" placeholder="Write something..."></textarea>
-                        </span>
-                        <div class="comment-area-btn">
-                            <div class="float-end">
-                                <button type="submit" class="btn btn-sm btn-dark waves-effect waves-light">Post</button>
-                            </div>
-                            <div>
-                                <a href="#" class="btn btn-sm btn-light text-black-50"><i class="far fa-user"></i></a>
-                                <a href="#" class="btn btn-sm btn-light text-black-50"><i class="fa fa-map-marker-alt"></i></a>
-                                <a href="#" class="btn btn-sm btn-light text-black-50"><i class="fa fa-camera"></i></a>
-                                <a href="#" class="btn btn-sm btn-light text-black-50"><i class="far fa-smile"></i></a>
-                            </div>
-                        </div>
-                    </form>
-                    <!-- end comment box -->
-
-                    <!-- Story Box-->
-                    <div class="border border-light p-2 mb-3">
-                        <div class="d-flex align-items-start">
-                            <img class="me-2 avatar-sm rounded-circle" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="Generic placeholder image">
-                            <div class="w-100">
-                                <h5 class="">Thelma Fridley <small class="text-muted"> 1 hour ago</small></h5>
-                                <div class="">
-                                    Cras sit amet nibh libero, in
-                                    gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
-                                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Duis
-                                    sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper
-                                    porta. Mauris massa.
-                                    <br>
-                                    <a href="javascript: void(0);" class="text-muted font-13 d-inline-block mt-2"><i class="mdi mdi-reply"></i> Reply</a>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-
-                        <div class="post-user-comment-box">
-                            <div class="d-flex align-items-start">
-                                <img class="me-2 avatar-sm rounded-circle" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Generic placeholder image">
-                                <div class="w-100">
-                                    <h5 class="mt-0">Jeremy Tomlinson <small class="text-muted">3 hours ago</small></h5>
-                                    Nice work, makes me think of The Money Pit.
-
-                                    <br>
-                                    <a href="javascript: void(0);" class="text-muted font-13 d-inline-block mt-2"><i class="mdi mdi-reply"></i> Reply</a>
-
-                                    <div class="d-flex align-items-start mt-3">
-                                        <a class="pe-2" href="#">
-                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="avatar-sm rounded-circle" alt="Generic placeholder image">
-                                        </a>
-                                        <div class="w-100">
-                                            <h5 class="mt-0">Kathleen Thomas <small class="text-muted">5 hours ago</small></h5>
-                                            i'm in the middle of a timelapse animation myself! (Very different though.) Awesome stuff.
+                    <div class="col-6 border-end border-light">
+                        <h2 class="mb-0 fw-bold" style="padding: 4% 4% 5% 5%;">Posts</h2>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <h5><b>RPP</b></h5>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <h4>Judul</h4>
+                                            <h4>Tanggal terbit</h4>
+                                            <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="d-flex align-items-start mt-2">
-                                <a class="pe-2" href="#">
-                                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle" alt="Generic placeholder image" height="31">
-                                </a>
-                                <div class="w-100">
-                                    <input type="text" id="simpleinput" class="form-control border-0 form-control-sm" placeholder="Add comment">
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    <h5><b>Silabus</b></h5>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <h4>Judul</h4>
+                                            <h4>Tanggal terbit</h4>
+                                            <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="mt-2">
-                            <a href="javascript: void(0);" class="btn btn-sm btn-link text-danger"><i class="mdi mdi-heart"></i> Like (28)</a>
-                            <a href="javascript: void(0);" class="btn btn-sm btn-link text-muted"><i class="mdi mdi-share-variant"></i> Share</a>
-                        </div>
-                    </div>
-
-                    <!-- Story Box-->
-                    <div class="border border-light p-2 mb-3">
-                        <div class="d-flex align-items-start">
-                            <img class="me-2 avatar-sm rounded-circle" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Generic placeholder image">
-                            <div class="w-100">
-                                <h5 class="m-0">Jeremy Tomlinson</h5>
-                                <p class="text-muted"><small>about 2 minuts ago</small></p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <h5><b>Modul Ajar</b></h5>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <h4>Judul</h4>
+                                            <h4>Tanggal terbit</h4>
+                                            <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <p>Story based around the idea of time lapse, animation to post soon!</p>
-
-                        <img src="https://via.placeholder.com/800x540/FF7F50/000000" alt="post-img" class="rounded me-1" height="60">
-                        <img src="https://via.placeholder.com/800x540/FF7F50/000000" alt="post-img" class="rounded me-1" height="60">
-                        <img src="https://via.placeholder.com/800x540/FF7F50/000000" alt="post-img" class="rounded" height="60">
-
-                        <div class="mt-2">
-                            <a href="javascript: void(0);" class="btn btn-sm btn-link text-muted"><i class="mdi mdi-reply"></i> Reply</a>
-                            <a href="javascript: void(0);" class="btn btn-sm btn-link text-muted"><i class="mdi mdi-heart-outline"></i> Like</a>
-                            <a href="javascript: void(0);" class="btn btn-sm btn-link text-muted"><i class="mdi mdi-share-variant"></i> Share</a>
-                        </div>
-                    </div>
-
-                    <!-- Story Box-->
-                    <div class="border border-light p-2 mb-3">
-                        <div class="d-flex align-items-start">
-                            <img class="me-2 avatar-sm rounded-circle" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Generic placeholder image">
-                            <div class="w-100">
-                                <h5 class="m-0">Jeremy Tomlinson</h5>
-                                <p class="text-muted"><small>15 hours ago</small></p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    <h5><b>ATP</b></h5>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <img src="img/SilabusTIK.webp"  alt="" width="90%">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <h4>Judul</h4>
+                                            <h4>Tanggal terbit</h4>
+                                            <p class="">TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <p>The parallax is a little odd but O.o that house build is awesome!!</p>
-
-                        <iframe src="https://player.vimeo.com/video/87993762" height="300" class="img-fluid border-0"></iframe>
-                    </div>
-
-                    <div class="text-center">
-                        <a href="javascript:void(0);" class="text-danger"><i class="mdi mdi-spin mdi-loading me-1"></i> Load more </a>
                     </div>
                 </div>
-            </div> <!-- end card-->
-
-        </div> <!-- end col -->
+            </div>
+        </div>
+    </div> <!-- end card-->
+</div> <!-- end col -->
 
         <!-- User Form Modal -->
     <div class="modal fade" role="dialog" tabindex="-1" id="user-form-modal">

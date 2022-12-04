@@ -88,56 +88,6 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-12 col-sm-6 mb-3">
-                        <div class="mb-2"><b>Change Password</b></div>
-                        <div class="row">
-                          <div class="col">
-                            <div class="form-group">
-                              <label>Current Password</label>
-                              <input class="form-control" type="password" placeholder="••••••">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col">
-                            <div class="form-group">
-                              <label>New Password</label>
-                              <input class="form-control" type="password" placeholder="••••••">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col">
-                            <div class="form-group">
-                              <label>Confirm <span class="d-none d-xl-inline">Password</span></label>
-                              <input class="form-control" type="password" placeholder="••••••"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-sm-5 offset-sm-1 mb-3">
-                        <div class="mb-2"><b>Keeping in Touch</b></div>
-                        <div class="row">
-                          <div class="col">
-                            <label>Email Notifications</label>
-                            <div class="custom-controls-stacked px-2">
-                              <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="notifications-blog" checked="">
-                                <label class="custom-control-label" for="notifications-blog">Blog posts</label>
-                              </div>
-                              <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="notifications-news" checked="">
-                                <label class="custom-control-label" for="notifications-news">Newsletter</label>
-                              </div>
-                              <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="notifications-offers" checked="">
-                                <label class="custom-control-label" for="notifications-offers">Personal Offers</label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </form>
                 </div>
               </div>
@@ -146,18 +96,47 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-3 mb-3">
-        <div class="card mb-3">
-          <div class="card-body">
-            <div class="px-xl-3" style="padding: 2% 0% 1% 0%;">
-              <button class="btn btn-block btn-secondary">
-                <i class="fa fa-sign-out"></i>
-                <span>Logout</span>
-              </button>
-              <div class="row" style="margin-top: 15%;">
-                <div class="col d-flex justify-content-end">
-                <input class="btn btn-outline-primary btn-lg" type="submit" value="Save">
+      <div class="tab-content pt-3">
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <div class="mb-2"><b>Change Password</b></div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label>Current Password</label>
+                    <input class="form-control" type="password" placeholder="••••••">
+                  </div>
                 </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label>New Password</label>
+                    <input class="form-control" type="password" placeholder="••••••">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label>Confirm <span class="d-none d-xl-inline">Password</span></label>
+                    <input class="form-control" type="password" placeholder="••••••">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="px-xl-3" style="padding: 2% 0% 1% 0%;">
+            <button class="btn btn-block btn-secondary">
+              <i class="fa fa-sign-out"></i>
+              <span>Logout</span>
+            </button>
+            <div class="row" style="margin-top: 15%;">
+              <div class="col d-flex justify-content-end">
+                <input class="btn btn-block btn-success" type="submit" value="Save">
               </div>
             </div>
           </div>

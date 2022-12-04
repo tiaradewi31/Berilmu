@@ -30,80 +30,81 @@
         </form>
       </div>
     </div>
-  <div class="custom_container">
-    <div class="fitur_berilmu" style="padding-top: 300px;">
-    <div class="fiturberilmu1">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <h3>Simplest Drag and Drop Builder</h3>
-            <p class="">So simple, even a child could use!</p>
-            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
-              <source data-src="video/RPP.mp4" type="video/mp4" src="video/RPP.mp4">
-            </video>
-          </div>
-        </div>
-    </div>
-    <div class="fiturberilmu2">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
-              <source data-src="video/Silabus.mp4" type="video/mp4" src="video/Silabus.mp4">
-            </video>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <h3>Super Powerful Character Builder</h3>
-            <p class="">So diverse, you can create Billions of unique characters.</p>
-            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
+    <div class="custom_container">
+      <div class="fitur_berilmu" style="padding-top: 300px;">
+        <div class="fiturberilmu1">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
+              <h3>Simplest Drag and Drop Builder</h3>
+              <p class="">So simple, even a child could use!</p>
+              <span style="width: 100px;height: 3px;background: orange;display: inline-block;"> </span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+                <source data-src="video/RPP.mp4" type="video/mp4" src="video/RPP.mp4">
+              </video>
+            </div>
           </div>
         </div>
-    </div>
-    <div class="fiturberilmu3">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <h3>100M+ Stock Videos and Photos</h3>
-            <p class="">So ginormous, you can find anything you want.</p>
-            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
-              <source data-src="video/Media Pembelajaran.mp4" type="video/mp4" src="video/Media Pembelajaran.mp4">
-            </video>
-          </div>
-        </div>
-    </div>
-    <div class="fiturberilmu4">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
-              <source data-src="video/Bahan Ajar.mp4" type="video/mp4" src="video/Bahan Ajar.mp4">
-            </video>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <h3>Super Powerful Character Builder</h3>
-            <p class="">So diverse, you can create Billions of unique characters.</p>
-            <span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
+        <div class="fiturberilmu2">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left: 7%;">
+              <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+                <source data-src="video/Silabus.mp4" type="video/mp4" src="video/Silabus.mp4">
+              </video>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-right: 7%;">
+              <h3>Super Powerful Character Builder</h3>
+              <p class="">So diverse, you can create Billions of unique characters.</p>
+              <span style="width: 100px;height: 3px;background: orange;display: inline-block;"> </span>
+            </div>
           </div>
         </div>
-    </div>
-    <div class="fiturberilmu5">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 70px;padding-left: 200px;">
-            <h3>100M+ Stock Videos and Photos</h3>
-            <p class="">So ginormous, you can find anything you want.</p>
-<span style="width: 40px;height: 3px;background: orange;display: inline-block;"> </span>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
-              <source data-src="video/ATP.mp4" type="video/mp4" src="video/ATP.mp4">
-            </video>
+        <div class="fiturberilmu3">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
+              <h3>100M+ Stock Videos and Photos</h3>
+              <p class="">So ginormous, you can find anything you want.</p>
+              <span style="width: 100px;height: 3px;background: orange;display: inline-block;"> </span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+                <source data-src="video/Media Pembelajaran.mp4" type="video/mp4" src="video/Media Pembelajaran.mp4">
+              </video>
+            </div>
           </div>
         </div>
+        <div class="fiturberilmu4">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left: 7%;">
+              <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+                <source data-src="video/Bahan Ajar.mp4" type="video/mp4" src="video/Bahan Ajar.mp4">
+              </video>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-right: 7%;">
+              <h3>Super Powerful Character Builder</h3>
+              <p class="">So diverse, you can create Billions of unique characters.</p>
+              <span style="width: 100px;height: 3px;background: orange;display: inline-block;"> </span>
+            </div>
+          </div>
+        </div>
+        <div class="fiturberilmu5">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%; margin-bottom: 12%">
+              <h3>100M+ Stock Videos and Photos</h3>
+              <p class="">So ginormous, you can find anything you want.</p>
+              <span style="width: 100px;height: 3px;background: orange;display: inline-block;"> </span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <video class="desk-view" autoplay="" muted="" loop="" playsinline="" style="width:90%;" preload="none">
+                <source data-src="video/ATP.mp4" type="video/mp4" src="video/ATP.mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/bgberilmu.png" alt="" width="50%" style="padding: 5% 0% 0% 0%;">
     </div>
-  </div>
-</div>
     @include('footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

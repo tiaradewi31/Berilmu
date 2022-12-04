@@ -16,7 +16,7 @@
 <div class="container">
   <!-- Title -->
   <div class="d-flex justify-content-between align-items-lg-center py-3 flex-column flex-lg-row">
-    <h2 style="padding: 1% 0% 1% 0%;">Posts Perangkat Pembelajaran</h2>
+    <h2 style="padding: 1% 0% 1% 5%;">Posts Perangkat Pembelajaran</h2>
   </div>
 
   <!-- Main content -->
@@ -24,20 +24,6 @@
     <div class="row">
       <!-- Left side -->
       <div class="col-lg-8">
-        <!-- Basic information -->
-        <div class="card mb-4">
-          <div class="card-body was-validated">
-            <h3 class="h6 mb-4"><label for="validationTextarea" class="form-label">Notes</label></h3>
-            <div class="row">
-              <div class="col-lg-12">
-                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                <div class="invalid-feedback">
-                  Please enter a Notes in the textarea.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <!-- Posts -->
         <div class="card mb-4">
           <div class="card-body">
@@ -100,6 +86,20 @@
       </div>
       <!-- Right side -->
       <div class="col-lg-4">
+        <!-- Basic information -->
+        <div class="card mb-4">
+          <div class="card-body was-validated">
+            <h3 class="h6 mb-4"><label for="validationTextarea" class="form-label">Notes</label></h3>
+            <div class="row">
+              <div class="col-lg-12">
+                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a Notes in the textarea.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- Status -->
         <div class="card mb-4">
           <div class="card-body">
@@ -139,7 +139,7 @@
           </div>
         </div>
         
-        <div class="hstack gap-3" style="padding-top: 10%;">
+        <div class="hstack gap-3" style="padding-top: 5%; padding-bottom:5%;">
           <input class="btn btn-outline-primary btn-lg" type="submit" value="Save">
           <input class="btn btn-outline-success btn-lg" type="reset" value="Clear">
           <a class="btn btn-outline-danger btn-lg" href="/profil" role="button">Back</a>
