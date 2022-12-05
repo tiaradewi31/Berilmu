@@ -55,7 +55,7 @@
                 <source data-src="video/Silabus.mp4" type="video/mp4" src="video/Silabus.mp4">
               </video>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-right: 7%;">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;">
               <h3>Super Powerful Character Builder</h3>
               <p class="">So diverse, you can create Billions of unique characters.</p>
               <span style="width: 100px;height: 3px;background: orange;display: inline-block;"> </span>
@@ -83,7 +83,7 @@
                 <source data-src="video/Bahan Ajar.mp4" type="video/mp4" src="video/Bahan Ajar.mp4">
               </video>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-right: 7%;">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;">
               <h3>Super Powerful Character Builder</h3>
               <p class="">So diverse, you can create Billions of unique characters.</p>
               <span style="width: 100px;height: 3px;background: orange;display: inline-block;"> </span>
