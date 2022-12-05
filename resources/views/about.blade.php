@@ -25,84 +25,84 @@
     </div>
 
     <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-8 col-lg-6">
-            <!-- Section Heading-->
-            <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-              <h3 style="margin-top:80px;">Our Team</h3>
-              <p>Website ini merupakan projek akhir dari #SahabatBerbagi untuk mata kuliah Pemrograman Internet</p>
-              <div class="line"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%; border-radius:10px 10px 0 0;">
-                <!-- Social Info-->
-                <div class="social-info"><a href="https://www.instagram.com/fitrifasol/"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h6>Fitri Farida Solihati</h6>
-                <h9>2103753</h9>
-                <p class="designation">Backend</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/niki.jpeg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
-                <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h6>Nikita Marsya Devana S</h6>
-                <h9>2102423</h9>
-                <p class="designation">Frontend</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Reisa.jpg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
-                <!-- Social Info-->
-                <div class="social-info"><a href="https://www.instagram.com/reisa257/"><i class="fa fa-instagram"></i></a><a href=""><i class="fa fa-google"></i></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h6>Reisa Aulia Sodikin</h6>
-                <h9>2102423</h9>
-                <p class="designation">Frontend</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Advisor-->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-              <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="img/Tiara.jpeg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
-                <!-- Social Info-->
-                <div class="social-info"><a href="https://www.instagram.com/tiaradewiis/"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
-              </div>
-              <!-- Team Details-->
-              <div class="single_advisor_details_info">
-                <h6>Tiara Dewi Ibnatun S</h6>
-                <h9>2100686</h9>
-                <p class="designation">Backend</p>
-              </div>
-            </div>
-          </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 col-lg-6">
+          <!-- Section Heading-->
+          <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <h3 style="margin-top:80px;">Our Team</h3>
+            <p>Website ini merupakan projek akhir dari #SahabatBerbagi untuk mata kuliah Pemrograman Internet</p>
+            <div class="line"></div>
           </div>
         </div>
       </div>
+      <div class="row">
+        <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <!-- Team Thumb-->
+            <div class="advisor_thumb"><img src="img/Fitri.png" alt="" style="width:120%; border-radius:10px 10px 0 0;">
+              <!-- Social Info-->
+              <div class="social-info"><a href="https://www.instagram.com/fitrifasol/"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
+            </div>
+            <!-- Team Details-->
+            <div class="single_advisor_details_info">
+              <h6>Fitri Farida Solihati</h6>
+              <h9>2103753</h9>
+              <p class="designation">Backend</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <!-- Team Thumb-->
+            <div class="advisor_thumb"><img src="img/niki.jpeg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
+              <!-- Social Info-->
+              <div class="social-info"><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
+            </div>
+            <!-- Team Details-->
+            <div class="single_advisor_details_info">
+              <h6>Nikita Marsya Devana S</h6>
+              <h9>2102423</h9>
+              <p class="designation">Frontend</p>
+          </div>
+          </div>
+        </div>
+        <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <!-- Team Thumb-->
+            <div class="advisor_thumb"><img src="img/Reisa.jpg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
+              <!-- Social Info-->
+              <div class="social-info"><a href="https://www.instagram.com/reisa257/"><i class="fa fa-instagram"></i></a><a href=""><i class="fa fa-google"></i></a></div>
+            </div>
+            <!-- Team Details-->
+            <div class="single_advisor_details_info">
+              <h6>Reisa Aulia Sodikin</h6>
+              <h9>2102423</h9>
+              <p class="designation">Frontend</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single Advisor-->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <!-- Team Thumb-->
+            <div class="advisor_thumb"><img src="img/Tiara.jpeg" alt="" style="width:120%; border-radius:10px 10px 0 0;">
+              <!-- Social Info-->
+              <div class="social-info"><a href="https://www.instagram.com/tiaradewiis/"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
+            </div>
+            <!-- Team Details-->
+            <div class="single_advisor_details_info">
+              <h6>Tiara Dewi Ibnatun S</h6>
+              <h9>2100686</h9>
+              <p class="designation">Backend</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
 
     @include('footer')
 
