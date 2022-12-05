@@ -11,9 +11,8 @@
       flex: 33.33%;
 	  height: 200px;
 	  padding: 10px;
-      padding-top: 80px;
+      padding-top: 40px;
       padding-left: 100px;
-      padding-bottom: 60px;
 	  margin: 5px;
 	  text-align: left;
 	}
@@ -21,18 +20,16 @@
       flex: 33.33%;
 	  height: 20px;
 	  padding: 10px;
-      padding-top: 80px;
+      padding-top: 40px;
       padding-left: 160px;
-      padding-bottom: 80px;
 	  margin: 5px;
     }
 	.container-footer {
 	   display: flex;
        background-color: rgb(136, 212, 2550);
-
        padding-left: 50px;
-       padding-bottom: 50px;
 	}	
+
 
 </style>
 </head>  
@@ -48,9 +45,9 @@
                 </p>
 	        </div>
 	        <div class="column-dua">
-                <div class="sosmed" style= "padding-top: 30px">
-                    <img src="img/gmail.png"  alt="" width="40">
-                    <img src="img/instagram.png"  alt="" width="30">
+                <div class="sosmed" style= "padding-top: 30px; padding-left: 20px;">
+                    <img src="img/gmail.png"  alt="" width="40px">
+                    <img src="img/instagram.png"  alt="" width="30px">
                 </div>
             </div>
 	        <div class="column">

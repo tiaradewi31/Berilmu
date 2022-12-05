@@ -36,9 +36,15 @@
         </div>
     </div>
 
-    <div class="container">
-      <button class="btn"><i class="fa fa-download"></i> Unduh</button>
-      <button class="btn"><i class="fa fa-play"></i> Tonton</button>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <button class="btn"><i class="fa fa-download"></i> Unduh</button>
+        </div>
+        <div class="col">
+          <button class="btn"><i class="fa fa-play"></i> Tonton</button>
+        </div>
+      </div>
     </div>
 
     @include('footer')

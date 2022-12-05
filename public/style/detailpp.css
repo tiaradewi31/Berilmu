@@ -19,7 +19,7 @@ p{
     line-height: 30px;
 }
 
-.btn {
+.container.text-center .row .col .btn {
     background-color: DodgerBlue;
     border: none;
     color: white;
@@ -27,10 +27,10 @@ p{
     cursor: pointer;
     font-size: 20px;
     text-align: center;
-    margin: 100px 600px;
-    width: 13%;
-  }
+    margin: 50px 0 100px;
+    width: 30%;
+}
   
-  .btn:hover {
+.container.text-center .row .col .btn:hover {
     background-color: rgb(123, 156, 254);
-  }
+}
