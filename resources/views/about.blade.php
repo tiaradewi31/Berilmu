@@ -15,7 +15,7 @@
     @include('navbarsudahlogin')
 
     <div class ="container text-center">
-        <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 182px; margin: 176px;">
+        <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 20%; margin: 176px 0 176px;">
         <div class="card border border-0" style="background-color: #E4F5FF; border-radius: 60px;">
             <div class="card-body">
               <p class="Penjelasan">Berilmu merupakan sebuah website yang sangat bermanfaat bagi guru dan calon guru (Mahasiswa Pendidikan) untuk saling berbagi dan mempelajarai lebih lanjut mengenai Perangkat Pembelajaran, terutama saat pergantian kurikulum yang tentunya akan membingungkan.</p>
@@ -104,7 +104,7 @@
         </div>
       </div>
 
-      @include('footer')
+    @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
