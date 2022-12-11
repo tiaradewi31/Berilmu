@@ -54,7 +54,7 @@
                 <img src="img/togaberilmuputih.png"  alt="" width="200">
 	        </div>
 	    </div>
-        <div class="text-center" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
+        <div class="text-center" style= "padding-bottom: 15px; font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
         © 2022 Copyright:
         <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Berilmu.com</a>
         </div>

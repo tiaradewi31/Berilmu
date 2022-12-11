@@ -100,19 +100,6 @@
             </div>
           </div>
         </div>
-        <!-- Status -->
-        <div class="card mb-4">
-          <div class="card-body">
-            <h3 class="h6 mb-4">Simpan Sebagai</h3>
-              <select class="form-select" required aria-label="select example">
-                <option selected disabled value="">Pilih...</option>
-                <option value="Draft">Draft</option>
-                <option value="Post">Post</option>
-              </select>
-            <div class="invalid-feedback">Example invalid select feedback</div>
-          </div>
-        </div>
-        
         <!-- Jenis Perangkat Pembelajaran -->
         <div class="card mb-4">
           <div class="card-body">

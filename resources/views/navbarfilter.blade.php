@@ -28,14 +28,6 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 6px;">
-                    <a class="nav-link dropdown-toggle" style= "color : black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jenis Sekolah</a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Negeri</a></li>
-                    <li><a class="dropdown-item" href="#">Swasta</a></li>
-                    <li><a class="dropdown-item" href="#">Madrasah</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown" style="padding-left: 20px; padding-top: 6px;">
                     <a class="nav-link dropdown-toggle" style= "color : black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mata Pelajaran</a>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">PKn</a></li>
