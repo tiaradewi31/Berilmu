@@ -21,9 +21,7 @@ Route::get('/homepage', function () {
     return view('homepagesudahlogin');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/login', [LoginController::class, 'index'] );
 
 Route::get('/register', function () {
     return view('register');
@@ -56,3 +54,4 @@ Route::get('/posts', function () {
 Route::get('/editprofil', function () {
     return view('editprofil');
 });
+
