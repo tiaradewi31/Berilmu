@@ -21,7 +21,6 @@ Route::get('/', function () {
 
 Route::get('/homepage')->name('homepage');
 
-Route::get('/login', [LoginController::class, 'index'] );
 
 Route::post('/login', [ProfilController::class, 'simpandata'])->name('simpandata');
 
