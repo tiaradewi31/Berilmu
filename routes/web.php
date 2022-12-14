@@ -28,6 +28,9 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::post('/register/masuk', [ProfilController::class, 'simpandata'])->name('simpandata');
+
+
 Route::get('/profil', function () {
     return view('profil');
 });
