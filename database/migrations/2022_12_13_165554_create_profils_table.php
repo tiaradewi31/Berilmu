@@ -13,8 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('profils', function (Blueprint $table) {
             $table->id();
+            $table->string('email', 50)->default('text')->unique();
+            $table->string('password', 50)->default('text');
+            $table->timestamp('password_verified_at')->nullable();
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('posts');
+        Schema::dropIfExists('profils');
     }
 };

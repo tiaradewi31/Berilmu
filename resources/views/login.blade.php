@@ -1,42 +1,62 @@
 <!doctype html>
 <html lang="en">
-  <head>
+ 
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Berilmu | Log In</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-  <body style="background-color: #88D4FF; position: relative; width: 1200px; height: 500px;">
-    <div class="card-group" style="position: absolute; width: 1150px; height: 500px;  left: 100px; top: 100px; background: #FFFFFF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 42px;">
-      <div class="card" style="background: #E8F2FD; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 42px;">
-        <div class="card-body">
-          <img src="img/Logo.png" alt="Logo Berilmu" style="width: 300px;">
-          <h4 style="font-family: 'Pridi'; align-items: top;">Tempat Berbagi Ilmu</h4>
-          <h4>Karena Berbagi itu Indah</h4>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <form style="margin-bottom: 25px;">
-            <div class="mb-custom">
-              <label for="exampleInputEmail1" class="form-label">Username</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-custom">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <a aria-current="page" href="\homepage"><button type="submit" class="btn btn-primary btn-lg btn-block" style="width: 478px; height: 50px; left: 835px; top: 672px; background: #46B8F9; border: 1px solid #635C5C; border-radius: 20px;">Masuk</button></form></a>
-        </div>
-      </div>
-    </div>
-
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+        <div class="text-center">
+          <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 20%; padding-top: 5%;">
+        </div>
+        <title>Login</title>
+</head>
+ 
+<body>
+    <style>
+        body{
+            background-color: #E8F2FD;
+            background-size: cover;
+            
+        }
+      </style>
+    <div class="row justify-content-center" style="margin-top: 8%">
+        <div class="col-lg-6">
+            <main class="form-registration">
+                <form action="{{ route('simpandata') }}" method="POST">
+                    @csrf
+                    <div class="form-floating">
+                        <input type="email" class="form-control " name="email" id="email" required
+                            value="{{ old('email') }}" placeholder="name@example.com">
+                        <label for="email">Email address</label>
+                    </div>
+                    <div class="form-floating" style="margin-top: 2%">
+                        <input type="password" class="form-control rounded-bottom" name="password" id="password" required
+                            placeholder="Password">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="form-floating" style="margin-top: 2%">
+                        <input type="password" class="form-control rounded-bottom" name="password_verified at" id="password-confirm" required
+                            placeholder="Konfirmasi Password">
+                        <label for="password">Konfirmasi Password</label>
+                    </div>
+ 
+                    <button class="w-100 btn btn-lg mt-3" style="background-color: rgb(136, 212, 255)" type="submit">Login</button>
+                </form>
+                <small class="d-block mt-3">Belum punya akun? <a class="text" style="color: rgb(136, 212, 255)" href="/register">
+                        Daftar
+                        sekarang!</a></small>
+            </main>
+        </div>
+    </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+ 
 </html>

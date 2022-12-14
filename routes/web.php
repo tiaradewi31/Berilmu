@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProfilController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,13 +19,13 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/homepage', function () {
-    return view('homepagesudahlogin');
-});
+Route::get('/homepage')->name('homepage');
 
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::post('/login', [ProfilController::class, 'simpandata'])->name('simpandata');
 
 Route::get('/register', function () {
     return view('register');
