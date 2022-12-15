@@ -6,6 +6,7 @@ use App\Models\profil;
 use App\Http\Requests\StoreprofilRequest;
 use App\Http\Requests\UpdateprofilRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Symfony\Component\HttpKernel\Profiler\Profile;
 
 class ProfilController extends Controller
@@ -21,6 +22,7 @@ class ProfilController extends Controller
         //
     }
 
+    public $table = 'profils';
     /**
      * Show the form for creating a new resource.
      *
@@ -28,7 +30,10 @@ class ProfilController extends Controller
      */
     public function create()
     {
-        profil::insert('insert into profil (id, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);    
+        
+        profil::insert('insert into profil (id, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);
+
+        profil::select("select * from profils where email = '$email' ");
     }
 
     /**
@@ -95,6 +100,32 @@ class ProfilController extends Controller
             'password' => $request->password,
             
         ]);
-        return view('/homepagesudahlogin');
+        return view('homepagesudahlogin');
+    }
+
+    public function login()
+    {
+        return view("login");
+    }
+
+    public function masuk(Request $request)
+    {
+        $request->validate([
+            'email'=>'required',
+            'password'=>'required'
+        ]);
+
+        $infologin =[
+            'email'=> $request->email,
+            'password' => $request->password
+        ];
+
+        if(Auth::attempt($infologin)){//kalo kamu bertanyea tanyea tentang ini, ini teh ceritanya buat klo misalnya datanya engga ada di database tidak bisa masuk
+            return 'sukses';
+        }else{
+            return redirect('login')->withErrors('Username atau Password yang Anda Masukkan tidak valid!');
+        }
+
+        return view('homepagesudahlogin');
     }
 }

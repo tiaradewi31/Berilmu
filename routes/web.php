@@ -21,8 +21,9 @@ Route::get('/', function () {
 
 Route::get('/homepage')->name('homepage');
 
+Route::get('/login', [ProfilController::class, 'login']);
 
-Route::post('/login', [ProfilController::class, 'simpandata'])->name('simpandata');
+Route::post('/login/homepage', [ProfilController::class, 'masuk'])->name('masuk');
 
 Route::get('/register', function () {
     return view('register');
