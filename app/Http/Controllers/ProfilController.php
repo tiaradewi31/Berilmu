@@ -29,6 +29,7 @@ class ProfilController extends Controller
     public function create()
     {
         profil::insert('insert into profil (id, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);    
+    
     }
 
     /**
