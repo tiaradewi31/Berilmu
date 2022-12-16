@@ -94,10 +94,11 @@ class ProfilController extends Controller
     public function simpandata(Request $request)
     {
         $user = profil::create([
+            'name' => $request->name,
             'email' => $request->email,
             'password' => $request->password,
             
         ]);
-        return view('/homepage');
+        return view('homepagesudahlogin');
     }
 }

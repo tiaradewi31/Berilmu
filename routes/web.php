@@ -22,11 +22,13 @@ Route::get('/', function () {
 Route::get('/homepage')->name('homepage');
 
 
-Route::post('/login', [ProfilController::class, 'simpandata'])->name('simpandata');
 
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::post('/register/homepage', [ProfilController::class, 'simpandata'])->name('simpandata');
+
 
 Route::get('/profil', function () {
     return view('profil');
