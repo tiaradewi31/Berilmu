@@ -27,7 +27,7 @@
     <div class="row justify-content-center" style="margin-top: 8%">
         <div class="col-lg-6">
             <main class="form-registration">
-                <form action="/login/masuk" method="POST">
+                <form action="/login/homepage" method="POST">
                     @csrf
                     <div class="form-floating">
                         <input type="email" class="form-control " name="email" id="email" required
@@ -39,11 +39,11 @@
                             placeholder="Password">
                         <label for="password">Password</label>
                     </div>
-                    <div class="form-floating" style="margin-top: 2%">
+                    <!-- <div class="form-floating" style="margin-top: 2%">
                         <input type="password" class="form-control rounded-bottom" name="password_verified at" id="password-confirm" required
                             placeholder="Konfirmasi Password">
                         <label for="password">Konfirmasi Password</label>
-                    </div>
+                    </div> -->
  
                     <button class="w-100 btn btn-lg mt-3" style="background-color: rgb(136, 212, 255)" type="submit">Login</button>
                 </form>

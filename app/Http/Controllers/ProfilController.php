@@ -22,7 +22,7 @@ class ProfilController extends Controller
         //
     }
 
-    public $table = 'profils';
+    //public $table = 'profils';
     /**
      * Show the form for creating a new resource.
      *
@@ -33,7 +33,7 @@ class ProfilController extends Controller
         
         profil::insert('insert into profil (id, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);
 
-        profil::select("select * from profils where email = '$email' ");
+        profil::select("select * from profil where email = '$email' ");
     }
 
     /**
