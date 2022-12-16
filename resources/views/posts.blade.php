@@ -16,7 +16,7 @@
 <div class="container">
   <!-- Title -->
   <div class="d-flex justify-content-between align-items-lg-center py-3 flex-column flex-lg-row">
-    <h2 style="padding: 1% 0% 1% 5%;">Posts Perangkat Pembelajaran</h2>
+    <h2 style="padding: 1% 0% 1% 5%;">Upload Perangkat Pembelajaran</h2>
   </div>
 
   <!-- Main content -->
@@ -100,6 +100,7 @@
             </div>
           </div>
         </div>
+        
         <!-- Jenis Perangkat Pembelajaran -->
         <div class="card mb-4">
           <div class="card-body">

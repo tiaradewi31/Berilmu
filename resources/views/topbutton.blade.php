@@ -14,14 +14,15 @@
   border: none;
   outline: none;
   background-color: white;
-  color: rgb(136, 212, 255);
+  color: black;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 7px;
 }
 
 #myBtn:hover {
   background-color: black;
+  color: white;
 }
 </style>
 </head>
