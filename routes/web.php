@@ -40,10 +40,6 @@ Route::get('/profil', function () {
     return view('profil');
 });
 
-Route::get('/detail', function () {
-    return view('detail');
-});
-
 Route::get('/about', function () {
     return view('about');
 });
@@ -58,9 +54,5 @@ Route::get('/searchpage', function () {
 
 Route::get('/posts', function () {
     return view('posts');
-});
-
-Route::get('/editprofil', function () {
-    return view('editprofil');
 });
 
