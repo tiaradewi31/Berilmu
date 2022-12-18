@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\profil;
-use App\Http\Requests\StoreprofilRequest;
-use App\Http\Requests\UpdateprofilRequest;
+use App\Models\User;
+use App\Http\Requests\StoreUserRequest;
+use App\Http\Requests\UpdateUserRequest;
 use Illuminate\Http\Request;
-use Symfony\Component\HttpKernel\Profiler\Profile;
 use Auth;
 
-class ProfilController extends Controller
+class UserController extends Controller
 {
     protected $redirectTo = '/password/verify';
     /**
@@ -22,7 +21,6 @@ class ProfilController extends Controller
         //
     }
 
-    //public $table = 'profils';
     /**
      * Show the form for creating a new resource.
      *
@@ -30,19 +28,18 @@ class ProfilController extends Controller
      */
     public function create()
     {
-        
-        profil::insert('insert into profil (id, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);
+        profil::insert('insert into users (id, username, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);
 
-        profil::select("select * from profil where email = '$email' ");
+        profil::select("select * from users where email = '$email' ");
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreprofilRequest  $request
+     * @param  \App\Http\Requests\StoreUserRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreprofilRequest $request)
+    public function store(StoreUserRequest $request)
     {
         //
     }
@@ -50,10 +47,10 @@ class ProfilController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\profil  $profil
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(profil $profil)
+    public function show(User $user)
     {
         //
     }
@@ -61,10 +58,10 @@ class ProfilController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\profil  $profil
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function edit(profil $profil)
+    public function edit(User $user)
     {
         //
     }
@@ -72,11 +69,11 @@ class ProfilController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateprofilRequest  $request
-     * @param  \App\Models\profil  $profil
+     * @param  \App\Http\Requests\UpdateUserRequest  $request
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateprofilRequest $request, profil $profil)
+    public function update(UpdateUserRequest $request, User $user)
     {
         //
     }
@@ -84,17 +81,17 @@ class ProfilController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\profil  $profil
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function destroy(profil $profil)
+    public function destroy(User $user)
     {
         //
     }
 
     public function simpandata(Request $request)
     {
-        $profil = profil::create([
+        $user = user::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => $request->password,
@@ -105,24 +102,35 @@ class ProfilController extends Controller
 
     /*public function panggildata(Request $request)
     {
-        $profil = profil::select([
+        $user = profil::select([
             'email' => $request->email,
             'password' => $request->password,
             
         ]);
         return view('homepagesudahlogin');
-    }
+    }*/
 
     /*public function login(){
         return view('login');
     }*/
     public function panggildata(Request $request){
-        $email = $request->email;
-        $password   = $request->password;
-        if (Auth::attempt(['email' => $email, 'password' => $password])) {
-            return "Hai ". Auth::profil()->name;
+      
+        if($user = Auth::attempt([
+            'email' => ('email'),
+            'password' => ('password')
+        ])){
+            return view('homepagesudahlogin');
         }else{
             return "Maaf email atau password yang anda masukan tidak sesuai.";
         }
+            
+            
+        
+        //return view('homepagesudahlogin');
+        /*if (Auth::attempt(['email' => 'email', 'password' => 'password'])) {
+            return view('homepagesudahlogin');
+        }else{
+            return "Maaf email atau password yang anda masukan tidak sesuai.";
+        }*/
     }
 }

@@ -27,7 +27,7 @@
     <div class="row justify-content-center" style="margin-top: 8%">
         <div class="col-lg-6">
             <main class="form-registration">
-                <form action="/login/masuk" method="POST">
+                <form action="/login/homepage" method="POST">
                     @csrf
                     <div class="form-floating">
                         <input type="email" class="form-control " name="email" id="email" required

@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfilController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,16 +21,20 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/homepage')->name('homepage');
-
-
+Route::get('/homepage')->name('homepagesudahlogin');
 
 Route::get('/register', function () {
     return view('register');
 });
 
-Route::post('/register/homepage', [ProfilController::class, 'simpandata'])->name('simpandata');
+Route::get('/login', function () {
+    return view('login');
+});
 
+Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
+
+
+Route::post('/login/homepage', [UserController::class, 'panggildata'])->name('panggildata');
 
 Route::get('/profil', function () {
     return view('profil');
