@@ -40,12 +40,19 @@
         <div class="text-center">
           <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 40%; padding-bottom: 2%; padding-top: 7%;">
         </div>
-        <div class="text-center" style="padding-left: 2%; padding-bottom: 10%;">
+        <div class="text-center" style="padding-left: 2%; padding-bottom: 4%;">
           <h5>Tempat berbagi perangkat pembelajaran<h5>
         </div>
+        <div class="cari">
         <a class="text-center" href="/searchpage">
           <button class="btn btn-outline-go" >KLIK DISINI UNTUK MENCARI RPP, SILABUS, MEDIA PEMBELAJARAN, MODUL AJAR, DAN ATP DARI RIBUAN SEKOLAH DI INDONESIA!</button>
         </a>
+        </div>
+        <div class="upload" style="margin-top: 3%;">
+        <a class="text-center upload" href="/posts">
+          <button class="btn btn-outline-go" >KLIK DISINI UNTUK MENGUPLOAD PERANGKAT PEMBELAJARAN!</button>
+        </a>
+        </div>
       </div>
     </div>
     <div class="custom_container">
@@ -53,7 +60,7 @@
         <div class="fiturberilmu1">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left: 12%;">
-              <h3>Simplest Drag and Drop Builder</h3>
+              <h3>Memberikan kemudahan bagi Anda untuk mencari perangkat pembelajaran</h3>
               <p class="">So simple, even a child could use!</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
@@ -72,7 +79,7 @@
               </video>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
-              <h3>Super Powerful Character Builder</h3>
+              <h3>Berbagi perangkat pembelajaran dengan ribuan guru di seluruh Indonesia</h3>
               <p class="">So diverse, you can create Billions of unique characters.</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
@@ -81,7 +88,7 @@
         <div class="fiturberilmu3">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
-              <h3>100M+ Stock Videos and Photos</h3>
+              <h3>100+ Koleksi Perangkat Pembelajaran</h3>
               <p class="">So ginormous, you can find anything you want.</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
@@ -100,7 +107,7 @@
               </video>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
-              <h3>Super Powerful Character Builder</h3>
+              <h3>Upload dengan mudah dan cepat</h3>
               <p class="">So diverse, you can create Billions of unique characters.</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
@@ -109,7 +116,7 @@
         <div class="fiturberilmu5">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%; margin-bottom: 12%">
-              <h3>100M+ Stock Videos and Photos</h3>
+              <h3>Pilihan jenjang dan mata pelajaran yang beragam</h3>
               <p class="">So ginormous, you can find anything you want.</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>

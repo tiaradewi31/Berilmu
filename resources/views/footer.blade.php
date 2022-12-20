@@ -11,7 +11,7 @@
       flex: 33.33%;
 	  height: 200px;
 	  padding: 10px;
-      padding-top: 40px;
+      padding-top: 60px;
       padding-left: 100px;
 	  margin: 5px;
 	  text-align: left;
@@ -40,9 +40,9 @@
                 <p>
                     <a href="/about" class="nav-link text-dark" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">About Berilmu</a>
                 </p>
-                <p>
+                <!-- <p>
                     <a href="/searchpage" class="nav-link text-dark" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">Cari Perangkat Pembelajaran</a>
-                </p>
+                </p> -->
 	        </div>
 	        <div class="column-dua">
                 <div class="sosmed" style= "padding-top: 30px; padding-left: 20px;">
