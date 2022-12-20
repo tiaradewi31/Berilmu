@@ -61,7 +61,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left: 12%;">
               <h3>Memberikan kemudahan bagi Anda untuk mencari perangkat pembelajaran</h3>
-              <p class="">So simple, even a child could use!</p>
+              <p class="">Dengan BERILMU, pasti bisa!</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -80,7 +80,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
               <h3>100+ Koleksi Perangkat Pembelajaran</h3>
-              <p class="">So diverse, you can create Billions of unique characters.</p>
+              <p class="">Upload Perangkat Pembelajaranmu sekarang juga!</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
           </div>
@@ -89,7 +89,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
               <h3>Berbagi perangkat pembelajaran dengan ribuan guru di seluruh Indonesia</h3>
-              <p class="">So ginormous, you can find anything you want.</p>
+              <p class="">Mari wujudkan pengajaran yang lebih berkualitas!</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -108,7 +108,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%;">
               <h3>Upload dengan mudah dan cepat</h3>
-              <p class="">So diverse, you can create Billions of unique characters.</p>
+              <p class="">Simple, tanpa ribet!</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
           </div>
@@ -117,7 +117,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top: 10%;padding-left: 12%; margin-bottom: 12%">
               <h3>Pilihan jenjang dan mata pelajaran yang beragam</h3>
-              <p class="">So ginormous, you can find anything you want.</p>
+              <p class="">Dari Sekolah Dasar sampai Sekolah Menengah Atas/Kejuruan. Dari Matematika sampai TIK, semua ada!</p>
               <span style="width: 100px;height: 3px;background: rgb(136, 212, 255);display: inline-block;"> </span>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
