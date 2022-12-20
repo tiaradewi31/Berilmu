@@ -18,8 +18,7 @@
         <img src="img/togaberilmu.png" alt="" style = "width: 50%; height: 20%; margin: 176px 0 176px;">
         <div class="card border border-0" style="background-color: #E4F5FF; border-radius: 60px;">
             <div class="card-body">
-              <p class="Penjelasan">Berilmu merupakan sebuah website yang sangat bermanfaat bagi guru dan calon guru (Mahasiswa Pendidikan) untuk saling berbagi dan mempelajarai lebih lanjut mengenai Perangkat Pembelajaran, terutama saat pergantian kurikulum yang tentunya akan membingungkan.</p>
-              <p class="Penjelasan">**Berilmu merupakan website yang dibuat oleh sebuah tim yang bernama #SahabatBerbagi**</p>
+              <p class="Penjelasan">Berilmu merupakan sebuah website yang dibentuk oleh #SahabatBerbagi untuk memberikan kemudahan bagi para guru dan calon guru di seluruh Indonesia untuk dapat saling berbagi perangkat pembelajaran</p>
             </div>
         </div>
     </div>
@@ -29,8 +28,7 @@
         <div class="col-12 col-sm-8 col-lg-6">
           <!-- Section Heading-->
           <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-            <h3 style="margin-top:80px;">Our Team</h3>
-            <p>Website ini merupakan projek akhir dari #SahabatBerbagi untuk mata kuliah Pemrograman Internet</p>
+            <h3 style="margin-top:80px;">#SahabatBerbagi</h3>
             <div class="line"></div>
           </div>
         </div>
