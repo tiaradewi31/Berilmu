@@ -48,7 +48,6 @@
             <div class="single_advisor_details_info">
               <h6>Fitri Farida Solihati</h6>
               <h9>2103753</h9>
-              <p class="designation">Backend</p>
             </div>
           </div>
         </div>
@@ -64,7 +63,6 @@
             <div class="single_advisor_details_info">
               <h6>Nikita Marsya Devana S</h6>
               <h9>2102423</h9>
-              <p class="designation">Frontend</p>
           </div>
           </div>
         </div>
@@ -80,7 +78,6 @@
             <div class="single_advisor_details_info">
               <h6>Reisa Aulia Sodikin</h6>
               <h9>2102423</h9>
-              <p class="designation">Frontend</p>
             </div>
           </div>
         </div>
@@ -96,7 +93,6 @@
             <div class="single_advisor_details_info">
               <h6>Tiara Dewi Ibnatun S</h6>
               <h9>2100686</h9>
-              <p class="designation">Backend</p>
             </div>
           </div>
         </div>
