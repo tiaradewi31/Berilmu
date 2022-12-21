@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
@@ -21,15 +21,21 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/homepage')->name('homepagesudahlogin');
+Route::get('/homepage', function () {
+    return view('homepagesudahlogin');
+});
 
 Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/login', [UserController::class, 'login'])->name('login');
+
+// Route::get('/login', function () {
+//     return view('login');
+// });
+
+//Route::get('/login', 'login')->name('login');
 
 Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
@@ -55,4 +61,7 @@ Route::get('/searchpage', function () {
 Route::get('/posts', function () {
     return view('posts');
 });
+
+Route::get('file-upload', [FileController::class, 'index']);
+Route::post('file-upload', [FileController::class, 'store'])->name('file.store');
 

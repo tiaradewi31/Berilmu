@@ -29,7 +29,8 @@
           <div class="card-body">
             <div class="mb-3">
               <h3 class="h6 mb-4">Perangkat Pembelajaran</h3>
-                <div class="input-group mb-3">
+            <form action="" method="POST" enctype="multipart/form-data">
+                <div class="input-group mb-3">                  
                   <input type="file" accept="application/pdf" class="form-control" id="inputGroupFile02" aria-label="file example" required>
                   <label class="input-group-text" for="inputGroupFile02">RPP, Silabus, Modul Ajar, ATP.pdf</label>
                   <div class="invalid-feedback">Example invalid form file feedback</div>
