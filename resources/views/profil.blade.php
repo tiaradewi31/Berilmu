@@ -33,7 +33,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="header-title mb-3">
-                        <a href="#" class="list-group-item list-group-item-action">
+                        <a href="/" class="list-group-item list-group-item-action">
                             <div class="d-flex align-items-center pb-1" id="tooltips-container">
                                 <div class="w-100 ms-2">
                                     <h4 class="mb-1">LOGOUT</h4>

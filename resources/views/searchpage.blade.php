@@ -19,108 +19,7 @@
         <h3><b>PERANGKAT PEMBELAJARAN</b><h3>
         <div>
             <form class="d-flex" style="margin: 4%;">
-                <input class="form-control me-2" href type="search" placeholder="Masukkan Kata Kunci Pencarian" aria-label="Search">
-            </form>
-        </div>
-      </div>
-    </div>
-
-        <div class="col-12 mb-4">
-            <form action="#">
-                <div id="pencarian" class="row pt-3" style="margin: 0px 5% 0px 0px; padding-left:22%;">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="mb-3">
-                            <label for="validationDefault04" class="form-label fw-bold">Jenis Perangkat Pembelajaran</label>
-                            <select class="form-select" id="validationDefault04" required>
-                                <option>Semua Jenis</option>
-                                <option>RPP</option>
-                                <option>Silabus</option>
-                                <option>Media Pembelajaran</option>
-                                <option>Modul Ajar</option>
-                                <option>ATP</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="mb-3">
-                            <label for="validationDefault04" class="form-label fw-bold">Jenjang Sekolah</label>
-                            <select class="form-select" id="validationDefault04" required>
-                                <option>Semua Jenjang</option>
-                                <option>SD/MI</option>
-                                <option>SMP/MTS</option>
-                                <option>SMA/SMK/MA</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="mb-3">
-                            <label for="validationDefault04" class="form-label fw-bold">Mata Pelajaran</label>
-                            <select class="form-select" id="validationDefault04" required>
-                                <option>Semua Mata Pelajaran</option>
-                                <option>PKn</option>
-                                <option>Matematika</option>
-                                <option>Bahasa Indonesia</option>
-                                <option>IPA</option>
-                                <option>IPS</option>
-                                <option>TIK</option>
-                                <option>Bahasa Inggris</option>
-                                <option>SBK</option>
-                                <option>PJOK</option>
-                                <option>Fisika</option>
-                                <option>Biologi</option>
-                                <option>Kimia</option>
-                            </select>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-        <!-- <!-- <div class="text-right col-md-3">
-            <label for="validationDefault04" class="form-label">Jenis Perangkat Pembelajaran</label>
-            <select class="form-select" id="validationDefault04" required>
-                <option>RPP</option>
-                <option>Silabus</option>
-                <option>Media Pembelajaran</option>
-                <option>Modul Ajar</option>
-                <option>ATP</option>
-            </select>
-        </div>
-        <div class="text-right col-md-3">
-            <label for="validationDefault04" class="form-label">Jenjang Sekolah</label>
-            <select class="form-select" id="validationDefault04" required>
-                <!-- <option selected disabled value="">Choose...</option> -->
-                <!-- <option>SD/MI</option>
-                <option>SMP/MTS</option>
-                <option>Media Pembelajaran</option>
-                <option>Modul Ajar</option>
-                <option>ATP</option>
-            </select>
-        </div> -->
-
-
-    <div class="row" style="padding-bottom: 2%">       
-        <div class="col-md-6" style= "padding-left: 35%">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);" for="flexCheckChecked"><b>Kurikulum 2013</b></label>
-        </div>
-        <div class="col-md-6" style= "padding-left: 5%">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" style= "font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);" for="flexCheckDefault"><b>Kurikulum Merdeka Belajar</b></label>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class = "text-center" style="padding-top: 30px; padding-bottom: 30px; font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
-            <form class="d-flex" style="margin: 4%;">
+                <input class="form-control me-2" href type="search" placeholder="Masukkan Kata Kunci Pencarian" aria-label="Search"></input>
                 <button class="btn btn-outline-success" type="submit">Search</button>
                 <style>
                 .btn-outline-success{
@@ -136,6 +35,7 @@
                 </style> 
             </form>
         </div>
+      </div>
     </div>
 
 
