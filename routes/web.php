@@ -4,6 +4,10 @@ use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\CategoryController;
+
+use App\Models\Category;
 
 
 /*
@@ -31,11 +35,9 @@ Route::get('/register', function () {
 
 Route::get('/login', [UserController::class, 'login'])->name('login');
 
-// Route::get('/login', function () {
-//     return view('login');
-// });
-
-//Route::get('/login', 'login')->name('login');
+Route::get('/login', function () {
+    return view('login');
+});
 
 Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
@@ -54,14 +56,23 @@ Route::get('/navbarsudahlogin', function () {
     return view('navbarsudahlogin');
 });
 
-Route::get('/searchpage', function () {
-    return view('searchpage');
+Route::get('/categories', function(){
+    return view('category', [
+        'title' =>'Jenis Perangkat Pembelajaran',
+        'categories'=> Category::all()
+    ]);
 });
 
-Route::get('/posts', function () {
+Route::get('/categories/{category:slug}', function(Category $category){
+    return view('category', [
+        'title' =>$category->name,
+        'posts'=> $category->post,
+        'category' => $category->name
+    ]);
+});
+
+Route::get('/searchpage', [PostController::class, 'index']);
+
+Route::get('/berilmu/posts', function () {
     return view('posts');
 });
-
-Route::get('file-upload', [FileController::class, 'index']);
-Route::post('file-upload', [FileController::class, 'store'])->name('file.store');
-

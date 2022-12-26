@@ -25,6 +25,8 @@
     <div class="row">
         <div class="card mb-4">
           <div class="card-body">
+          <form method="POST" action="/berilmu/post" enctype="multipart/form-data">
+            @csrf
             <h3 class="h6 mb-4">Topik Materi</h3>
               <textarea class="form-control" id="validationTextarea" placeholder="Contoh: Teks Eksposisi" required></textarea>
               <div class="invalid-feedback" style="padding-bottom: 2%;">
