@@ -11,7 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
  
         <div class="text-center">
-          <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 20%; padding-top: 5%;">
+          <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 25%; padding-top: 3%;">
         </div>
 
     <title>Register</title>
@@ -22,7 +22,8 @@
         body{
             background-color: #E8F2FD;
             background-size: cover;
-            
+            display: block;
+            margin: 5%;
         }
     </style>
     <div class="row justify-content-center" style="margin-top: 5%">

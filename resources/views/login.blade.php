@@ -11,7 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
         <div class="text-center">
-          <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 20%; padding-top: 5%;">
+          <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 25%; padding-top: 3%;">
         </div>
         <title>Login</title>
 </head>
@@ -21,7 +21,8 @@
         body{
             background-color: #E8F2FD;
             background-size: cover;
-            
+            display: block;
+            margin: 5%;
         }
       </style>
     <div class="row justify-content-center" style="margin-top: 8%">
@@ -39,15 +40,10 @@
                             placeholder="Password">
                         <label for="password">Password</label>
                     </div>
-                    <!-- <div class="form-floating" style="margin-top: 2%">
-                        <input type="password" class="form-control rounded-bottom" name="password_verified at" id="password-confirm" required
-                            placeholder="Konfirmasi Password">
-                        <label for="password">Konfirmasi Password</label>
-                    </div> -->
  
                     <button class="w-100 btn btn-lg mt-3" style="background-color: rgb(136, 212, 255)" type="submit">Login</button>
                 </form>
-                <small class="d-block mt-3">Belum punya akun? <a class="text" style="color: rgb(136, 212, 255)" href="/register">
+                <small class="d-block mt-3">Belum punya akun? <a class="text" style="color: rgba(70,184,249,255)" href="/register">
                         Daftar
                         sekarang!</a></small>
             </main>
