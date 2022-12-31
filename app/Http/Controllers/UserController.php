@@ -6,7 +6,7 @@ use App\Models\User;
 use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\UpdateUserRequest;
 use Illuminate\Http\Request;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -28,9 +28,9 @@ class UserController extends Controller
      */
     public function create()
     {
-        profil::insert('insert into users (id, username, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);
+        // user::insert('insert into users (id, username, email, password, update_at, created_at) values (20, 50, 100, 0, 0)', [1, 'Dayle']);
 
-        profil::select("select * from users where email = '$email' ");
+        // user::select("select * from users where email = 'email' ");
     }
 
     /**

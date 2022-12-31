@@ -36,7 +36,6 @@
             border-width: medium;
             }
         </style>
-      </style>
         <div class="text-center">
           <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 40%; padding-bottom: 2%; padding-top: 7%;">
         </div>
