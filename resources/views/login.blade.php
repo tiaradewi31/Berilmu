@@ -26,13 +26,18 @@
         }
       </style>
     <div class="row justify-content-center" style="margin-top: 8%">
+    @if (Session::has('status'))
+        <div class="alert alert-danger" role="alert">
+            {{ Session::get('message') }}
+        </div>
+    @endif
         <div class="col-lg-6">
             <main class="form-registration">
-                <form action="/login/homepage" method="POST">
+                <form action="" method="POST">
                     @csrf
                     <div class="form-floating">
                         <input type="email" class="form-control " name="email" id="email" required
-                            value="{{ old('email') }}" placeholder="name@example.com">
+                            placeholder="name@example.com">
                         <label for="email">Email address</label>
                     </div>
                     <div class="form-floating" style="margin-top: 2%">

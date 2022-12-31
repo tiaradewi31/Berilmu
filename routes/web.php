@@ -34,7 +34,7 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/login', [UserController::class, 'login'])->name('login');
+// Route::get('/login', [UserController::class, 'login'])->name('login');
 
 Route::get('/login', function () {
     return view('login');
@@ -43,7 +43,7 @@ Route::get('/login', function () {
 Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
 
-Route::post('/login/homepage', [UserController::class, 'panggildata'])->name('panggildata');
+Route::post('/login', [LoginController::class, 'Authenticate'])->name('Authenticate');
 
 Route::get('/profil', function () {
     return view('profil');
