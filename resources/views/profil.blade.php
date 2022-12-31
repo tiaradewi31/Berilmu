@@ -23,8 +23,8 @@
                     <div class="d-flex align-items-start">
                         <div class="w-100 ms-3">
                             <h1 class="text-center">Hai,</h1>
-                            <h3 class="text-center my-0" style="padding-bottom: 2%;">Anya Forger</h3>
-                            <p class="text-center text-muted">anyawakuwaku@gmail.com</p>
+                            <h3 class="text-center my-0" style="padding-bottom: 2%;">{{$user->name}}</h3>
+                            <p class="text-center text-muted">{{$user->email}}</p>
                         </div>
                     </div>
                 </div>                                 

@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\post;
+use App\Models\Category;
 use App\Http\Requests\StorepostRequest;
 use App\Http\Requests\UpdatepostRequest;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
@@ -14,9 +16,18 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $posts = Post::all();
+        // $posts = post::latest();
+        $Keyword = $request->Keyword;
+        // dd($Keyword);
+        // if (request('search')){
+        //     $posts->where('title', 'like', '%' . request('search') . '%');
+        // }
+
+        $posts = Post::where('title', 'LIKE', '%' . $Keyword . '%')
+                // ->orwhere('category', 'LIKE', '%' . $Keyword . '%')             
+                ->paginate(6);
         
         return view('searchpage', ['posts' => $posts]);
         // return view ('searchpage', [
@@ -33,7 +44,12 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        
+        // // $posts = post::all();
+        // $class = Category::all();
+
+        // return view ('posts', [
+        //     'class' => $class]);
     }
 
     /**

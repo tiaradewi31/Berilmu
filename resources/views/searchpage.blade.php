@@ -19,7 +19,7 @@
         <h3><b>PERANGKAT PEMBELAJARAN</b><h3>
         <div>
             <form class="d-flex" style="margin: 4%;">
-                <input class="form-control me-2" href type="search" placeholder="Masukkan Kata Kunci Pencarian" aria-label="Search"></input>
+                <input class="form-control me-2" href type="search" name="Keyword" placeholder="Masukkan Keyword"></input>
                 <button class="btn btn-outline-success" type="submit">Search</button>
                 <style>
                 .btn-outline-success{
@@ -70,8 +70,8 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="mb-3">{{$post->title}}</h5>
-                        <p>Jenis: <a href="/categories/{{$post->category->slug}}">{{$post->category->name}}</a></p>
-                        <p class="card-text">{{$post->excerpt}}</p>
+                        <p>By {{$post->user->name}} in {{$post->category->name}} <em> {{$post->created_at->diffForHumans()}} </em></p>                        
+                        <p>{{$post->excerpt}}</p>
                         <div class="col"> 
                             <button class="btn btn-outline-download"><i class="fa fa-download"></i> Download File</button>
                             <button class="btn btn-outline-youtube"><i class="fa fa-play"></i> Tonton Media Ajar</button>
@@ -84,6 +84,10 @@
     </div>
   </div>
 
+  <div class="container">
+  {{$posts->links()}}
+  </div>
+  
     @include ('topbutton')
 
     @include ('footer')
