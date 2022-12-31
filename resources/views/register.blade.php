@@ -29,7 +29,7 @@
     <div class="row justify-content-center" style="margin-top: 5%">
         <div class="col-lg-6">
             <main class="form-registration">
-                <form action="/register/homepage" method="POST">
+                <form action="/homepage" method="POST">
                     @csrf
                     <div class="form-floating">
                         <input type="text" class="form-control rounded-top" name="name" id="name" required

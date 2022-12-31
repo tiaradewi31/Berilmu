@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\FormPostController;
 
 use App\Models\Category;
 
@@ -39,7 +40,7 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
+Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
 
 Route::post('/login/homepage', [UserController::class, 'panggildata'])->name('panggildata');
@@ -73,6 +74,6 @@ Route::get('/categories/{category:slug}', function(Category $category){
 
 Route::get('/searchpage', [PostController::class, 'index']);
 
-Route::get('/berilmu/posts', function () {
-    return view('posts');
-});
+Route::get('/posts', [FormPostController::class, 'create'])->name('create');
+
+Route::post('/post', [FormPostController::class, 'store'])->name('store');

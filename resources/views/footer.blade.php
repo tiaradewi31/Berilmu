@@ -10,16 +10,16 @@
     <style>
         .body{
             display: flex;
-            margin: 0;
-            padding: 0;
+            /* margin: 0;
+            padding: 0; */
             box-sizing: border-box;
             background: rgb(136, 212, 255);
             font-family: sans-serif;
         }
         .footer{
-            bottom: 0;
+            /* bottom: 0;
             left: 0;
-            right: 0;
+            right: 0; */
             background: rgb(136, 212, 255);
             height: auto;
             width: 100vw;
@@ -30,7 +30,7 @@
         .footer-content{
             background: rgb(136, 212, 255);
             width: 100vw;
-            padding: 20px;
+            /* padding: 20px; */
             padding-top: 2%;
             padding-bottom: 40px;
             text-align: center;
@@ -39,7 +39,7 @@
             text-decoration: none;
             text-align: center;
             max-width: 500px;
-            margin: 10px auto;
+            /* margin: 10px auto; */
             line-height: 28px;
             font-size: 14px;
             color: black;

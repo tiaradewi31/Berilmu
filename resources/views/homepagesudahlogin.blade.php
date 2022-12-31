@@ -48,7 +48,7 @@
         </a>
         </div>
         <div class="upload" style="margin-top: 3%;">
-        <a class="text-center upload" href="/posts">
+        <a class="text-center upload" href="posts">
           <button class="btn btn-outline-go" >KLIK DISINI UNTUK MENGUPLOAD PERANGKAT PEMBELAJARAN!</button>
         </a>
         </div>

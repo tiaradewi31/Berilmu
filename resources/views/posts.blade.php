@@ -25,34 +25,55 @@
     <div class="row">
         <div class="card mb-4">
           <div class="card-body">
-          <form method="POST" action="/berilmu/post" enctype="multipart/form-data">
-            @csrf
-            <h3 class="h6 mb-4">Topik Materi</h3>
-              <textarea class="form-control" id="validationTextarea" placeholder="Contoh: Teks Eksposisi" required></textarea>
-              <div class="invalid-feedback" style="padding-bottom: 2%;">
+          <div class="mb-3">
+            <form method="POST" action="searchpage" enctype="multipart/form-data">
+            @csrf            
+            <label for="title">Judul</label>
+              <input class="form-control" id="title" placeholder="Contoh: RPP Matematika" required>
+                <div class="invalid-feedback" style="padding-bottom: 2%;">
                 Please enter a Notes in the textarea.
-              </div>  
-
-            <h3 class="h6 mb-4">Isilah dengan jenis Perangkat Pembelajaran, Kurikulum, Jenjang, Kelas, dan Mata Pelajaran yang sesuai</h3>
-              <textarea class="form-control" id="validationTextarea" placeholder="Contoh: RPP, Kurikulum 2013, Jenjang SMP, Kelas 8, Bahasa Indonesia" required></textarea>
-              <div class="invalid-feedback">
+                </div>  
+          </div>                  
+            
+          <div class="mb-3">
+            <label for="category_id"><h6>Jenis Perangkat Pembelajaran</h6></label>
+              <select name="category_id" id="category" required>
+                  <option value="">Pilih Satu</option>
+                  @foreach ($class as $categories)
+                    <option value="{{$categories->id}}">{{$categories->name}}</option>
+                  @endforeach
+              </select>
+          </div>
+              <!-- <div class="invalid-feedback">
                 Please enter a Notes in the textarea.
-              </div>
+              </div> -->
+          <div class="mb-3">
+            <label for="excerpt">Keterangan</label>
+              <textarea class="form-control" id="excerpt" placeholder="Beri keterangan mengenai kurikulum, kelas dan jenjang pendidikan" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a Notes in the textarea.
+                </div>
+          </div>                          
 
-            <h3 class="h6 mb-4" style="padding-top: 1.5pc;">Perangkat Pembelajaran</h3>
+          <!-- <div class="mb-3">
+            <h6>Perangkat Pembelajaran</h6>
               <div class="input-group mb-4">
                 <input type="file" accept="application/pdf" class="form-control" id="inputGroupFile02" aria-label="file example" required>
                 <label class="input-group-text" for="inputGroupFile02">RPP, Silabus, Modul Ajar, ATP.pdf</label>
                 <div class="invalid-feedback">Example invalid form file feedback</div>
               </div> 
+          </div>
             
+          <div class="mb-3">
             <h3 class="h6 mb-4">Media Pembelajaran</h3>
             <input type="url" class="form-control" placeholder="https://youtu.be/" required> 
+          </div>              -->
+          
           </div>
         </div>
         
         <div class="hstack gap-3" style="padding-top: 1%; padding-bottom:5%;">
-          <input class="btn btn-outline-primary btn-lg" type="submit" value="Save">
+          <button class="btn btn-outline-success btn-lg" type="submit"> save </button>
           <input class="btn btn-outline-success btn-lg" type="reset" value="Clear">
           <a class="btn btn-outline-danger btn-lg" href="/homepage" role="button">Back</a>
         </div>

@@ -123,9 +123,6 @@ class UserController extends Controller
         }else{
             return "Maaf email atau password yang anda masukan tidak sesuai.";
         }
-            
-            
-        
         //return view('homepagesudahlogin');
         /*if (Auth::attempt(['email' => 'email', 'password' => 'password'])) {
             return view('homepagesudahlogin');
