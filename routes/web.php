@@ -42,19 +42,7 @@ Route::get('/login', function () {
 
 Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
-
-<<<<<<< HEAD
 Route::post('/homepage', [UserController::class, 'panggildata'])->name('panggildata');
-=======
-Route::post('/login', [LoginController::class, 'Authenticate'])->name('Authenticate.login');
-
-// Route::get('/profil', function () {
-//     return view('profil');
-// });
-
-Route::get('/profil', [UserController::class, 'index']);
->>>>>>> 6daf57846af0200479939c3e86e826085f398e05
-
 
 Route::get('/about', function () {
     return view('about');

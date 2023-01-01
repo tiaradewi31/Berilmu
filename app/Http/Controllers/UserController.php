@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
-use App\Http\Requests\StoreUserRequest;
-use App\Http\Requests\UpdateUserRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Requests\StoreUserRequest;
+use Illuminate\Support\Facades\Session;
+use App\Http\Requests\UpdateUserRequest;
 
 class UserController extends Controller
 {
@@ -104,12 +105,22 @@ class UserController extends Controller
 
     public function panggildata(Request $request)
     {
-        $user = user::select([
+        $credentials = user::select([
             'email' => $request->email,
             'password' => $request->password,
             
         ]);
-        return view('homepagesudahlogin');
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+
+            return view('homepagesudahlogin');
+        }
+
+        Session::flash('status', 'failed');
+        Session::flash('message', 'login wrong!');
+
+        return view('login');
     }
 
     /*public function login(){
