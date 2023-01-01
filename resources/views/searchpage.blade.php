@@ -74,7 +74,6 @@
                         <p>{{$post->excerpt}}</p>
                         <div class="col"> 
                             <button class="btn btn-outline-download"><i class="fa fa-download"></i> Download File</button>
-                            <button class="btn btn-outline-youtube"><i class="fa fa-play"></i> Tonton Media Ajar</button>
                         </div>
                     </div>
                 </div>
