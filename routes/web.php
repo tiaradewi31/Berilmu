@@ -43,11 +43,14 @@ Route::get('/login', function () {
 Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
 
-Route::post('/login', [LoginController::class, 'Authenticate'])->name('Authenticate');
+Route::post('/login', [LoginController::class, 'Authenticate'])->name('Authenticate.login');
 
-Route::get('/profil', function () {
-    return view('profil');
-});
+// Route::get('/profil', function () {
+//     return view('profil');
+// });
+
+Route::get('/profil', [UserController::class, 'index']);
+
 
 Route::get('/about', function () {
     return view('about');

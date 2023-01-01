@@ -19,7 +19,7 @@ return new class extends Migration
             $table->foreignId('user_id');
             $table->string('title');
             $table->text('excerpt');
-            $table->varchar('perangkat_ajar');
+            $table->string('perangkat_ajar');
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });

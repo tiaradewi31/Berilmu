@@ -36,7 +36,7 @@ class PostController extends Controller
         //     "searchpage" => Post::all()
         // ]);
     }
-
+    
     /**
      * Show the form for creating a new resource.
      *

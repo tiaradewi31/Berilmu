@@ -8,6 +8,20 @@ use Illuminate\Http\Request;
 
 class FormPostController extends Controller
 {
+    public function store(Request $request)
+    {
+        $validateData = $request->validate([
+            'title' => 'required|max:255',
+            'category_id' => 'required',
+            'excerpt' => 'required'
+            
+        ]);
+
+        $validateData['user_id'] = user()->id;
+        Post::create($validateData);
+
+        return redirect('/searchpage');
+    }
     public function create()
     {
         $class = Category::select('id', 'name')->get();
@@ -16,13 +30,13 @@ class FormPostController extends Controller
             'class' => $class]);
     }
 
-    public function store(Request $request)
-    {
-        $post = new post;
-        $post->title = $request->title;
-        $post->category = $request->category;
-        $post->excerpt = $request->excerpt;
-        $post->save();
+    // public function store(Request $request)
+    // {
+    //     $post = new post;
+    //     $post->title = $request->title;
+    //     $post->category = $request->category;
+    //     $post->excerpt = $request->excerpt;
+    //     $post->save();
 
-    }
+    // }
 }
