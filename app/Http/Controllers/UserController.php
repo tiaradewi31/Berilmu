@@ -18,7 +18,9 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        $users = user::get('name');
+        return view('profil')->with('users', $users);
+    
     }
 
     /**

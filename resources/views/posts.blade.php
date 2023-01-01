@@ -29,9 +29,9 @@
             <form method="POST" action="searchpage" enctype="multipart/form-data">
             @csrf            
             <label for="title">Judul</label>
-              <input class="form-control" id="title" placeholder="Contoh: RPP Matematika" required>
+              <input class="form-control @error('title') is-invalid @enderror" id="title" placeholder="Contoh: RPP Matematika" required autofocus value = "{{old('title')}}">
                 <div class="invalid-feedback" style="padding-bottom: 2%;">
-                Please enter a Notes in the textarea.
+                Wajib diisi
                 </div>  
           </div>                  
             
@@ -49,26 +49,20 @@
               </div> -->
           <div class="mb-3">
             <label for="excerpt">Keterangan</label>
-              <textarea class="form-control" id="excerpt" placeholder="Beri keterangan mengenai kurikulum, kelas dan jenjang pendidikan" required></textarea>
+              <textarea class="form-control" id="excerpt" placeholder="Beri keterangan mengenai kurikulum, kelas dan jenjang pendidikan" required value = "{{old('excerpt')}}"></textarea>
                 <div class="invalid-feedback">
-                  Please enter a Notes in the textarea.
+                Wajib diisi
                 </div>
           </div>                          
 
-          <!-- <div class="mb-3">
+          <div class="mb-3">
             <h6>Perangkat Pembelajaran</h6>
               <div class="input-group mb-4">
                 <input type="file" accept="application/pdf" class="form-control" id="inputGroupFile02" aria-label="file example" required>
                 <label class="input-group-text" for="inputGroupFile02">RPP, Silabus, Modul Ajar, ATP.pdf</label>
-                <div class="invalid-feedback">Example invalid form file feedback</div>
+                <div class="invalid-feedback">Wajib diisi</div>
               </div> 
-          </div>
-            
-          <div class="mb-3">
-            <h3 class="h6 mb-4">Media Pembelajaran</h3>
-            <input type="url" class="form-control" placeholder="https://youtu.be/" required> 
-          </div>              -->
-          
+          </div>          
           </div>
         </div>
         
