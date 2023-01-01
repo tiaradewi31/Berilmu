@@ -100,34 +100,34 @@ class UserController extends Controller
         return view('homepagesudahlogin');
     }
 
-    /*public function panggildata(Request $request)
+    public function panggildata(Request $request)
     {
-        $user = profil::select([
+        $user = user::select([
             'email' => $request->email,
             'password' => $request->password,
             
         ]);
         return view('homepagesudahlogin');
-    }*/
+    }
 
     /*public function login(){
         return view('login');
     }*/
-    // public function panggildata(Request $request){
+    //  public function panggildata(Request $request){
       
-    //     if($user = Auth::attempt([
-    //         'email' => ('email'),
-    //         'password' => ('password')
-    //     ])){
+    //      if($user = Auth::attempt([
+    //          'email' => ('email'),
+    //          'password' => ('password')
+    //      ])){
+    //          return view('homepagesudahlogin');
+    //      }else{
+    //          return "Maaf email atau password yang anda masukan tidak sesuai.";
+    //      }
+    //     return view('homepagesudahlogin');
+    //     if (Auth::attempt(['email' => 'email', 'password' => 'password'])) {
     //         return view('homepagesudahlogin');
     //     }else{
     //         return "Maaf email atau password yang anda masukan tidak sesuai.";
     //     }
-        //return view('homepagesudahlogin');
-        /*if (Auth::attempt(['email' => 'email', 'password' => 'password'])) {
-            return view('homepagesudahlogin');
-        }else{
-            return "Maaf email atau password yang anda masukan tidak sesuai.";
-        }*/
-    //}
+    // }
 }

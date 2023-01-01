@@ -43,7 +43,7 @@ Route::get('/login', function () {
 Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
 
-Route::post('/login', [LoginController::class, 'Authenticate'])->name('Authenticate');
+Route::post('/homepage', [UserController::class, 'panggildata'])->name('panggildata');
 
 Route::get('/profil', function () {
     return view('profil');
