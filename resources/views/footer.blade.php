@@ -62,13 +62,16 @@
             <p>
                 <a href="/about">About Berilmu</a>
             </p>
-            <img src="img/gmail.png"  alt="" width="40px">
-            <img src="img/instagram.png"  alt="" width="30px">
+            <a style="text-decoration:none" href="berilmucompany@gmail.com">
+                <img src="img/gmail.png" alt="" width="40px">
+            </a>
+            <a style="text-decoration:none" href="https://www.instagram.com/berilmu_sahabatberbagi/">
+                <img src="img/instagram.png" alt="" width="30px">
+            </a>
         </div>
         <div class="footer-bottom">
-            <div class="text-center" style= "padding-bottom: 15px; font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
-                © 2022 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Berilmu.com</a>
+            <div class="text-center fw-bold" style= "padding-bottom: 15px; font-family: 'Poppins', Sans-serif; src: url(https://fonts.google.com/specimen/Poppins?query=Poppins);">
+                © 2022 Berilmu. All Rights Reserved PT. Berilmu Company Indonesia
             </div>
         </div>
     </footer>
