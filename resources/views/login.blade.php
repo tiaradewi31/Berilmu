@@ -33,7 +33,7 @@
     @endif
         <div class="col-lg-6">
             <main class="form-registration">
-                <form action="{{ route('panggildata') }}" method="POST">
+                <form action="{{ route('Authenticate') }}" method="POST">
                     @csrf
                     <div class="form-floating">
                         <input type="email" class="form-control " name="email" id="email" required
