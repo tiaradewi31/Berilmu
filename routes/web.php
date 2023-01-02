@@ -41,9 +41,9 @@ Route::get('/register', [UserController::class, 'show'])->name('show');
 
 Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
-Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
+Route::get('/login', [LoginController::class, 'login'])->name('login');
 
-Route::post('/login/homepage', [LoginController::class, 'Authenticate'])->name('Authenticate');
+Route::post('/login/homepage', [UserController::class, 'panggildata'])->name('panggildata');
 
 Route::get('/about', function () {
     return view('about');

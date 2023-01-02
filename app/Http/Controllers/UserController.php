@@ -105,7 +105,7 @@ class UserController extends Controller
         return view('homepagesudahlogin');
     }
 
-    public function panggildata(Request $request)
+    public function panggildata(Request $request )
     {
         $user = user::select([
             'email' => $request->email,
@@ -113,10 +113,10 @@ class UserController extends Controller
             
         ]);
 
-        if (Auth::attempt($user)) {
-            $request->session()->regenerate();
-
-            return view('homepagesudahlogin');
+        if (Auth::Attempt($user)) {
+            return redirect('/homepage');
+        }else{
+            return redirect('login');
         }
 
         Session::flash('status', 'failed');

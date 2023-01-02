@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+// use App\Http\Controllers\user;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -18,7 +19,7 @@ class LoginController extends Controller
         
         // user::select("select * from users where email = 'email' ");
 
-        $credentials = user::select([
+        $credentials = $request->validate([
             'email' => $request->email,
             'password' => $request->password,
             
@@ -27,7 +28,7 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return view('homepagesudahlogin');
+            return view('homepage');
         }
 
         Session::flash('status', 'failed');
