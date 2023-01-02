@@ -27,7 +27,7 @@
       </style>
     <div class="row justify-content-center" style="margin-top: 8%">
     @if (Session::has('status'))
-        <div class="alert alert-danger" role="alert">
+        <div class="alert w-100 btn btn-lg mt-3" style="background-color: rgb(136, 212, 255)" role="alert">
             {{ Session::get('message') }}
         </div>
     @endif

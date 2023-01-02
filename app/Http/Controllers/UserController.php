@@ -9,6 +9,8 @@ use App\Http\Requests\StoreUserRequest;
 use Illuminate\Support\Facades\Session;
 use App\Http\Requests\UpdateUserRequest;
 
+
+
 class UserController extends Controller
 {
     protected $redirectTo = '/password/verify';
@@ -55,7 +57,7 @@ class UserController extends Controller
      */
     public function show(User $user)
     {
-        //
+        return view('register');
     }
 
     /**
@@ -105,13 +107,13 @@ class UserController extends Controller
 
     public function panggildata(Request $request)
     {
-        $credentials = user::select([
+        $user = user::select([
             'email' => $request->email,
             'password' => $request->password,
             
         ]);
 
-        if (Auth::attempt($credentials)) {
+        if (Auth::attempt($user)) {
             $request->session()->regenerate();
 
             return view('homepagesudahlogin');
