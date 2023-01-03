@@ -25,7 +25,7 @@ class PostController extends Controller
         //     $posts->where('title', 'like', '%' . request('search') . '%');
         // }
 
-        $posts = Post::where('title', 'LIKE', '%' . $Keyword . '%')
+        $posts = Post::where('judul', 'LIKE', '%' . $Keyword . '%')
                 // ->orwhere('category', 'LIKE', '%' . $Keyword . '%')             
                 ->paginate(6);
         
@@ -35,6 +35,12 @@ class PostController extends Controller
         //     "title" => "searchpage",
         //     "searchpage" => Post::all()
         // ]);
+    }
+
+    public function downloadfunc(Request $request, $perangkat)
+    {
+       return response()->download(public_path('storage/'.'perangkat'.$perangkat));
+       
     }
     
     /**

@@ -73,8 +73,10 @@ Route::get('/about', function () {
 
 Route::get('/profil', [ProfilController::class, 'show'])->name('show')->middleware('auth');
 
-Route::get('/searchpage', [PostController::class, 'show'])->middleware('auth');
+Route::get('/searchpage', [PostController::class, 'index'])->name('index')->middleware('auth');
+
+Route::get('/searchpage/{perangkat}', [PostController::class, 'downloadfunc']);
 
 Route::get('/posts', [FormPostController::class, 'create'])->name('create')->middleware('auth');
 
-Route::post('/posts', [FormPostController::class, 'store'])->name('store')->middleware('auth');
+Route::post('/posts', [FormPostController::class, 'store'])->middleware('auth');

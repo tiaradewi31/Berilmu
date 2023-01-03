@@ -69,11 +69,11 @@
             <div class="col">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="mb-3">{{$post->title}}</h5>
-                        <p>{{$post->user->name}} Berbagi {{$post->category->name}} <em> {{$post->created_at->diffForHumans()}} </em></p>                        
-                        <p>{{$post->excerpt}}</p>
-                        <div class="col"> 
-                            <button class="btn btn-outline-download"><i class="fa fa-download"></i> Download File</button>
+                        <h5 class="mb-3">{{$post->judul}}</h5>
+                        <p>{{$post->user->name}} Berbagi<em> {{$post->created_at->diffForHumans()}} </em></p>                        
+                        <p>{{$post->ket}}</p>
+                        <div class="col">
+                          <a href="/searchpage/{{$post->perangkat}}" class="btn btn-outline-download"><i class="fa fa-download"></i> Download File</a>
                         </div>
                     </div>
                 </div>
