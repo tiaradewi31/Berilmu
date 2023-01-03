@@ -7,6 +7,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\FormPostController;
+use App\Http\Controllers\ProfilController;
 
 use App\Models\Category;
 
@@ -39,11 +40,13 @@ Route::get('/homepage', function () {
 // });
 Route::get('/register', [UserController::class, 'show'])->name('show');
 
-Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
+Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
 Route::get('/login', [LoginController::class, 'login'])->name('login');
 
-Route::post('/homepage', [LoginController::class, 'Authenticate'])->name('Authenticate');
+Route::post('/login/homepage', [LoginController::class, 'Authenticate'])->name('Authenticate');
+
+Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::get('/about', function () {
     return view('about');

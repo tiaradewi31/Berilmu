@@ -9,7 +9,6 @@ class ProfilController extends Controller
 {
     public function show()
     {
-        $users = user::all();
-        return view('profil')->with('users', $users);
+        return view('profil');
     }
 }

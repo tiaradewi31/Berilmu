@@ -23,7 +23,7 @@
                     <div class="d-flex align-items-start">
                         <div class="w-100 ms-3">
                             <h1 class="text-center">Hai,</h1>
-                            <h3 class="text-center my-0" style="padding-bottom: 2%;">{{Authenticate()->$users->name}}</h3>
+                            <h2 class="text-center"><b>{{ Auth::user()->name }}</b></h2>
                             <p class="text-center text-muted"></p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="header-title mb-3">
-                        <a href="/" class="list-group-item list-group-item-action">
+                        <a href="{{ route('logout') }}" class="list-group-item list-group-item-action">
                             <div class="d-flex align-items-center pb-1" id="tooltips-container">
                                 <div class="w-100 ms-2">
                                     <h4 class="mb-1">LOGOUT</h4>
