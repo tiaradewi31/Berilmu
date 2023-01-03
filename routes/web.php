@@ -23,59 +23,36 @@ use App\Models\Category;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-});
+// Route::get('/', function () {
+//     return view('homepage');
+// });
 
 Route::get('/homepage', function () {
     return view('homepagesudahlogin');
 });
 
-// Route::get('/register', function () {
-//     return view('register');
-// });
+Route::get('/register', [UserController::class, 'show'])->name('show')->middleware('guest');
 
-// Route::get('/login', function () {
-//     return view('login');
-// });
-Route::get('/register', [UserController::class, 'show'])->name('show');
+Route::post('/register', [UserController::class, 'simpandata'])->name('simpandata');
 
-Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
+Route::get('/login', [LoginController::class, 'login'])->name('login')->middleware('guest');
 
-Route::get('/login', [LoginController::class, 'login'])->name('login');
+Route::post('/login', [LoginController::class, 'dologin'])->name('dologin');
 
-Route::post('/login/homepage', [LoginController::class, 'Authenticate'])->name('Authenticate');
-
-Route::get('logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::get('/about', function () {
     return view('about');
 });
 
-// Route::get('/navbarsudahlogin', function () {
-//     return view('navbarsudahlogin');
-// });
-
-// Route::get('/categories', function(){
-//     return view('category', [
-//         'title' =>'Jenis Perangkat Pembelajaran',
-//         'categories'=> Category::all()
-//     ]);
-// });
-
-// Route::get('/categories/{category:slug}', function(Category $category){
-//     return view('category', [
-//         'title' =>$category->name,
-//         'posts'=> $category->post,
-//         'category' => $category->name
-//     ]);
-// });
+	
+// Route::get('/homepage', [UserController::class, 'homepage']);
 
 Route::get('/profil', [ProfilController::class, 'show'])->name('show')->middleware('auth');
 
 Route::get('/searchpage', [PostController::class, 'index'])->name('index')->middleware('auth');
 
-Route::get('/searchpage/{perangkat}', [PostController::class, 'downloadfunc']);
+Route::get('/searchpage/{perangkat}', [PostController::class, 'downloadfunc'])->middleware('auth');
 
 Route::get('/posts', [FormPostController::class, 'create'])->name('create')->middleware('auth');
 

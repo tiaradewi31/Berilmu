@@ -5,12 +5,39 @@
   <meta charset="utf-8">
   <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
   <!--  All snippets are MIT license http://bootdey.com/license -->
-  <title>Posts | BERILMU</title>
+  <title>BERILMU | Post</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <link rel="icon" href="img/logotoga.png" type = "image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
+<style type="text/css">
+    body {
+      background: #E8F2FD;
+    }
+    /* .card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 10%);
+} */
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0, 0, 0, .125);
+      border-radius: 1rem;
+    }
+    .card-body {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding: 1.5rem 1.5rem;
+    }
+</style>
 
 <body>
   <div class="container-fluid">
@@ -63,37 +90,8 @@
         </form>
       </div>
     </div>
-
-
   </div>
-
-  </div>
-
-  <style type="text/css">
-    body {
-      background: #E8F2FD;
-    }
-    /* .card {
-    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 10%);
-} */
-    .card {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      min-width: 0;
-      word-wrap: break-word;
-      background-color: #fff;
-      background-clip: border-box;
-      border: 0 solid rgba(0, 0, 0, .125);
-      border-radius: 1rem;
-    }
-    .card-body {
-      -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
-      padding: 1.5rem 1.5rem;
-    }
-  </style>
+</div>
 
   <script type="text/javascript">
   </script>

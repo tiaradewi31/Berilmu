@@ -14,22 +14,28 @@
           <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 25%; padding-top: 3%;">
         </div>
 
-    <title>Register</title>
+    <title>BERILMU | Register</title>
 </head>
  
+<style>
+    body{
+        background-color: #E8F2FD;
+        background-size: cover;
+        display: block;
+        margin: 5%;
+    }
+</style>
+
 <body>
-    <style>
-        body{
-            background-color: #E8F2FD;
-            background-size: cover;
-            display: block;
-            margin: 5%;
-        }
-    </style>
     <div class="row justify-content-center" style="margin-top: 5%">
+    @if (Session::has('status'))
+        <div class="alert w-100 btn btn-lg mt-3" style="background-color: rgb(136, 212, 255)" role="alert">
+            {{ Session::get('message') }}
+        </div>
+    @endif
         <div class="col-lg-6">
             <main class="form-registration">
-                <form action="{{ route('simpandata')}}" method="POST">
+                <form action="{{ route('simpandata') }}" method="POST">
                     @csrf
                     <div class="form-floating">
                         <input type="text" class="form-control rounded-top" name="name" id="name" required
@@ -46,7 +52,6 @@
                             placeholder="Password">
                         <label for="password">Password</label>
                     </div>
- 
                     <button class="w-100 btn btn-lg mt-3" style="background-color: rgb(136, 212, 255); margin-top: 2%;" type="submit">Register</button>
                 </form>
                 <small class="d-block mt-3">Sudah punya akun? <a class="text" style="color: rgba(70,184,249,255)" href="/login"> Masuk disini</a></small>

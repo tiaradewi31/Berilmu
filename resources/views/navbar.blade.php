@@ -9,12 +9,18 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <div class="navMenu">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page"  style= "color : black; padding-right: 20px; padding-top: 2px;" href="\login"><b>LOG IN</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style= "color : black; padding-top: 2px;" href="\register"><b>REGISTER</b></a>
-                    </li>
+                    @auth
+                        <li class="nav-item">
+                            <h4><a class="nav-link" style= "color : black; padding-top: 10px;" href="\profil"><b>Welcome Back, {{ auth()->user()->name }} </b></a></h4>
+                        </li>
+                    @else
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"  style= "color : black; padding-right: 20px; padding-top: 2px;" href="\login"><b>LOG IN</b></a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" style= "color : black; padding-top: 2px;" href="\register"><b>REGISTER</b></a>
+                        </li> -->
+                    @endauth
                 </ul>
             </div>
         </div>

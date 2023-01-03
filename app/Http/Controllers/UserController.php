@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\StoreUserRequest;
 use Illuminate\Support\Facades\Session;
 use App\Http\Requests\UpdateUserRequest;
@@ -53,7 +54,7 @@ class UserController extends Controller
      * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(User $user)
+    public function show()
     {
         return view('register');
     }
@@ -92,55 +93,51 @@ class UserController extends Controller
         //
     }
 
-    public function simpandata(Request $request)
-    {
-        $user = user::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => $request->password,
-            
-        ]);
-        return view('homepagesudahlogin');
-    }
-
-    // public function panggildata(Request $request )
+    // public function simpandata(Request $request)
     // {
-    //     $user = user::select([
+    //     $user = user::create([
+    //         'name' => $request->name,
     //         'email' => $request->email,
     //         'password' => $request->password,
             
     //     ]);
-
-    //     if (Auth::Attempt($user)) {
-    //         return redirect('/homepage');
-    //     }else{
-    //         return redirect('login');
-    //     }
-
-    //     Session::flash('status', 'failed');
-    //     Session::flash('message', 'login wrong!');
-
-    //     return view('login');
-    }
-
-    /*public function login(){
-        return view('login');
-    }*/
-    //  public function panggildata(Request $request){
-      
-    //      if($user = Auth::attempt([
-    //          'email' => ('email'),
-    //          'password' => ('password')
-    //      ])){
-    //          return view('homepagesudahlogin');
-    //      }else{
-    //          return "Maaf email atau password yang anda masukan tidak sesuai.";
-    //      }
     //     return view('homepagesudahlogin');
-    //     if (Auth::attempt(['email' => 'email', 'password' => 'password'])) {
-    //         return view('homepagesudahlogin');
-    //     }else{
-    //         return "Maaf email atau password yang anda masukan tidak sesuai.";
-    //     }
     // }
+
+    // public function homepage()
+    // {
+    //     return view('homepage');
+    // }
+
+    public function simpandata(Request $request)
+    {
+        $request->validate([
+            'name' => $request->name,
+            'name' => 'required|max:255|unique:users,name',
+            'email' => $request->email,
+            'email' => ['required', 'email', 'max:255', 'unique:users,email'],
+            'password' => $request->password,
+            'password' => ['required'],
+            
+        ]);
+        if ($request->fails()) {
+            return redirect('/Register')->withErrors($request)->withInput();
+        }
+
+        $user = User::where('name', $request->name)->first();
+        if (!$user || !Hash::check($request->email, $user->email)) {
+            Session::flash('status', 'failed');
+            Session::flash('message', 'Username or Email has been used!');
+            return redirect('show');
+        }
+        auth()->login($user);
+
+        $user = new User();
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = bcrypt($request->password);
+        $user->save();
+        return redirect('/homepage');
+    }
+}
 

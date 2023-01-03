@@ -3,39 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    </style>
-    <link rel="icon" href="http://berilmu-laravel.test/img/logoputih.png" type = "image/x-icon">
-    <link rel="icon" href="http://127.0.0.1:8000/img/logoputih.png" type = "image/x-icon">
+    <link rel="icon" href="img/logotoga.png" type = "image/x-icon">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>BERILMU | Homepage</title>
     </head>
+    <style>
+      body{
+          background-color: #E8F2FD;
+          background-size: cover;          
+      }
+      .btn-outline-go{
+        background-color: white;
+        color: black;
+        border-color: rgb(136, 212, 255);
+        border-width: medium;
+      }
+      .btn-outline-go:hover {
+        background-color: rgb(136, 212, 255);
+        color: white;
+        border-color: black;
+        border-width: medium;
+      }
+    </style>    
   <body>
 
-  @include('navbarsudahlogin')
+  @include('navbar')
 
     <div class="container">
       <div class = "text-center" style="margin-top: 100px;">
-      <style>
-        body{
-            background-color: #E8F2FD;
-            background-size: cover;
-            
-        }
-            .btn-outline-go{
-            background-color: white;
-            color: black;
-            border-color: rgb(136, 212, 255);
-            border-width: medium;
-            }
-            .btn-outline-go:hover {
-            background-color: rgb(136, 212, 255);
-            color: white;
-            border-color: black;
-            border-width: medium;
-            }
-        </style>
         <div class="text-center">
           <img src="img/togaberilmu.png" alt="Logo Berilmu" style="width: 40%; padding-bottom: 2%; padding-top: 7%;">
         </div>
@@ -122,5 +118,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
-
-

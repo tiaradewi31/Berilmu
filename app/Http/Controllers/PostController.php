@@ -51,7 +51,7 @@ class PostController extends Controller
     public function create()
     {
         
-        // // $posts = post::all();
+        // $posts = post::all();
         // $class = Category::all();
 
         // return view ('posts', [

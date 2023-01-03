@@ -2,42 +2,62 @@
 
 namespace App\Http\Controllers;
 
-// use App\Http\Controllers\user;
+//use App\Http\Controllers\user;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
 
 class LoginController extends Controller
 {
     public function login()
     {
-        return view ('login', [
-            'title' => 'Login',
-            'active' => 'login'
-        ]);
+        return view ('login');
     }
-    public function Authenticate(Request $request)
-    {
-        
-        // user::select("select * from users where email = 'email' ");
 
-        $credentials = $request->validate([
-            'email' => 'required|email:dns',
+    public function dologin(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'email' => 'required',
             'password' => 'required',
         ]);
 
-        if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
-
-            return view('homepagesudahlogin');
+        if ($validator->fails()) {
+            return redirect('/login')->withErrors($validator)->withInput();
         }
 
-        Session::flash('status', 'failed');
-        Session::flash('message', 'Email or Password wrong!');
+        $user = User::where('email', $request->email)->first();
+        if (!$user || !Hash::check($request->password, $user->password)) {
+            Session::flash('status', 'failed');
+            Session::flash('message', 'Email or Password wrong!');
+            return redirect('/login');
+        }
+        auth()->login($user);
 
-        return view('login');
+        return redirect('/homepage');
     }
+
+    // public function Authenticate(Request $request)
+    // {
+
+    //     $credentials = $request->validate([
+    //         'email' => 'required|email:dns',
+    //         'password' => 'required',
+    //     ]);
+
+    //     if (Auth::attempt($credentials)) {
+    //         $request->session()->regenerate();
+
+    //         return view('homepagesudahlogin');
+    //     }
+
+    //     Session::flash('status', 'failed');
+    //     Session::flash('message', 'Email or Password wrong!');
+
+    //     return view('login');
+    // }
 
     public function logout(Request $request)
     {

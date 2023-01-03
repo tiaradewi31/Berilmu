@@ -3,7 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
 #myBtn {
   display: none;
   position: fixed;
@@ -19,12 +18,12 @@
   padding: 15px;
   border-radius: 7px;
 }
-
 #myBtn:hover {
   background-color: black;
   color: white;
 }
 </style>
+
 </head>
 <body>
 
