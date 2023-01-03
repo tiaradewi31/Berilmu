@@ -30,9 +30,6 @@ Route::get('/homepage', function () {
     return view('homepagesudahlogin');
 });
 
-Route::get('/profil', [UserController::class, 'index'])->name('index');
-
-
 // Route::get('/register', function () {
 //     return view('register');
 // });
@@ -42,11 +39,11 @@ Route::get('/profil', [UserController::class, 'index'])->name('index');
 // });
 Route::get('/register', [UserController::class, 'show'])->name('show');
 
-Route::post('/register/homepage', [UserController::class, 'simpandata'])->name('simpandata');
+Route::post('/homepage', [UserController::class, 'simpandata'])->name('simpandata');
 
 Route::get('/login', [LoginController::class, 'login'])->name('login');
 
-Route::post('/login/homepage', [LoginController::class, 'Authenticate'])->name('Authenticate');
+Route::post('/homepage', [LoginController::class, 'Authenticate'])->name('Authenticate');
 
 Route::get('/about', function () {
     return view('about');
@@ -71,8 +68,10 @@ Route::get('/about', function () {
 //     ]);
 // });
 
-Route::get('/searchpage', [PostController::class, 'index'])->middleware('auth');
+Route::get('/profil', [ProfilController::class, 'show'])->name('show')->middleware('auth');
+
+Route::get('/searchpage', [PostController::class, 'show'])->middleware('auth');
 
 Route::get('/posts', [FormPostController::class, 'create'])->name('create')->middleware('auth');
 
-Route::post('/post', [FormPostController::class, 'store'])->name('store')->middleware('auth');
+Route::post('/posts', [FormPostController::class, 'store'])->name('store')->middleware('auth');

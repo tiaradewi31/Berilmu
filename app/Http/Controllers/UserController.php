@@ -21,9 +21,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $users = user::all();
-        return view('profil')->with('users', $users);
-    
+        //
     }
 
     /**
@@ -105,24 +103,24 @@ class UserController extends Controller
         return view('homepagesudahlogin');
     }
 
-    public function panggildata(Request $request )
-    {
-        $user = user::select([
-            'email' => $request->email,
-            'password' => $request->password,
+    // public function panggildata(Request $request )
+    // {
+    //     $user = user::select([
+    //         'email' => $request->email,
+    //         'password' => $request->password,
             
-        ]);
+    //     ]);
 
-        if (Auth::Attempt($user)) {
-            return redirect('/homepage');
-        }else{
-            return redirect('login');
-        }
+    //     if (Auth::Attempt($user)) {
+    //         return redirect('/homepage');
+    //     }else{
+    //         return redirect('login');
+    //     }
 
-        Session::flash('status', 'failed');
-        Session::flash('message', 'login wrong!');
+    //     Session::flash('status', 'failed');
+    //     Session::flash('message', 'login wrong!');
 
-        return view('login');
+    //     return view('login');
     }
 
     /*public function login(){
@@ -145,4 +143,4 @@ class UserController extends Controller
     //         return "Maaf email atau password yang anda masukan tidak sesuai.";
     //     }
     // }
-}
+

@@ -55,7 +55,7 @@ body {
     background-color: #E8F2FD;
     background-size: cover;
     display: block;
-    argin: 5%;
+    margin: 5%;
 }
 
 .card {
