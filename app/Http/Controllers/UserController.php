@@ -111,6 +111,7 @@ class UserController extends Controller
 
     public function simpandata(Request $request)
     {
+
         $request->validate([
             // 'name' => $request->name,
             'name' => 'required|max:255|unique:users,name',
@@ -120,24 +121,32 @@ class UserController extends Controller
             'password' => ['required'],
             
         ]);
-        if ($request->fails()) {
-            return redirect('/Register')->withErrors($request)->withInput();
-        }
+        // if ($request->fails()) {
+        //     return redirect('/Register')->withErrors($request)->withInput();
+        // }
 
-        $user = User::where('name', $request->name)->first();
-        if (!$user || !Hash::check($request->email, $user->email)) {
-            Session::flash('status', 'failed');
-            Session::flash('message', 'Username or Email has been used!');
-            return redirect('register');
-        }
-        auth()->login($user);
+        // $user = User::where('name', $request->name)->first();
+        // if (!$user || !Hash::check($request->email, $user->email)) {
+        //     Session::flash('status', 'failed');
+        //     Session::flash('message', 'Username or Email has been used!');
+        //     return redirect('register');
+        // }
+        // auth()->login($user);
 
         $user = new User();
         $user->name = $request->name;
         $user->email = $request->email;
         $user->password = bcrypt($request->password);
         $user->save();
-        return redirect('/homepage');
+        return redirect('/profil');
+
+        // $user = [
+        //     'name' => $request->input('name'),
+        //     'email' => $request->input('email'),
+        //     'password' => $request->input('password'),
+        // ];
+        // User::create($user);
+        // return redirect('/homepage');
     }
 
     public function profil()
