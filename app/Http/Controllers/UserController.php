@@ -112,11 +112,11 @@ class UserController extends Controller
     public function simpandata(Request $request)
     {
         $request->validate([
-            'name' => $request->name,
+            // 'name' => $request->name,
             'name' => 'required|max:255|unique:users,name',
-            'email' => $request->email,
+            // 'email' => $request->email,
             'email' => ['required', 'email', 'max:255', 'unique:users,email'],
-            'password' => $request->password,
+            // 'password' => $request->password,
             'password' => ['required'],
             
         ]);
@@ -128,7 +128,7 @@ class UserController extends Controller
         if (!$user || !Hash::check($request->email, $user->email)) {
             Session::flash('status', 'failed');
             Session::flash('message', 'Username or Email has been used!');
-            return redirect('show');
+            return redirect('register');
         }
         auth()->login($user);
 
@@ -139,5 +139,13 @@ class UserController extends Controller
         $user->save();
         return redirect('/homepage');
     }
+
+    public function profil()
+    {
+        $user = User::find(Auth::user()->id);
+
+        return view('profil')->with('user', $user);
+    }
+
 }
 
