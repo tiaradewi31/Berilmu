@@ -62,7 +62,7 @@
             <p>
                 <a href="/about">About Berilmu</a>
             </p>
-            <a style="text-decoration:none" href="berilmucompany@gmail.com">
+            <a style="text-decoration:none" href="mailto:berilmucompany@gmail.com">
                 <img src="img/gmail.png" alt="" width="40px">
             </a>
             <a style="text-decoration:none" href="https://www.instagram.com/berilmu_sahabatberbagi/">
