@@ -138,7 +138,7 @@ class UserController extends Controller
         $user->email = $request->email;
         $user->password = bcrypt($request->password);
         $user->save();
-        return redirect('/homepage');
+        return redirect('/login');
 
         // $user = [
         //     'name' => $request->input('name'),
